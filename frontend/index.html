@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hostel Khoj — Hostel Recommender for Kathmandu Students</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar navbar-expand-md hf-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand hf-brand" href="#" data-nav="home">
+      <span class="hf-brand-mark"><i class="bi bi-buildings-fill"></i></span> Hostel Khoj
+    </a>
+    <form id="navSearchForm" class="hf-nav-search d-none" autocomplete="off">
+      <i class="bi bi-search"></i>
+      <input type="text" id="navQueryInput" class="hf-nav-search-input"
+             placeholder="Search hostels… e.g. hostel near me">
+      <button type="submit" class="btn hf-nav-search-btn" aria-label="Search"><i class="bi bi-arrow-right"></i></button>
+    </form>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hfNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="hfNav">
+      <ul class="navbar-nav ms-auto align-items-md-center gap-md-2">
+        <li class="nav-item"><a class="nav-link" href="#" data-nav="home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-nav="browse">Browse</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-nav="compare">Compare <span id="compareBadge" class="badge hf-badge-count d-none">0</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#" data-nav="owner">List a Hostel</a></li>
+        <li class="nav-item" id="authArea"></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HOME / SEARCH VIEW ============ -->
+<section id="view-home" class="hf-view">
+  <div class="hf-hero">
+    <div class="container text-center">
+      <span class="hf-pill"><i class="bi bi-cpu"></i> Powered by Natural Language Processing</span>
+      <h1 class="hf-hero-title">Find Your Perfect Hostel <span class="hf-accent">in Simple Words</span></h1>
+      <p class="hf-hero-sub">Just describe what you need in plain English. Our NLP engine parses location, budget,
+        facilities, and hostel type — then ranks results with TF-IDF matching, collaborative filtering, and
+        sentiment-analyzed reviews.</p>
+
+      <form id="searchForm" class="hf-search-box">
+        <i class="bi bi-search hf-search-icon"></i>
+        <input type="text" id="queryInput" class="hf-search-input"
+               placeholder="e.g., I need a budget hostel near Thamel with WiFi and meals under 12000 rupees">
+        <button type="submit" class="btn hf-search-btn"><i class="bi bi-stars"></i> Search</button>
+      </form>
+
+      <div class="hf-chip-row">
+        <span class="hf-chip-label">Try:</span>
+        <button class="hf-chip" data-query="hostel near me"><i class="bi bi-crosshair"></i> hostel near me</button>
+        <button class="hf-chip" data-query="hostel near Kantipur Engineering College">hostel near Kantipur Engineering College...</button>
+        <button class="hf-chip" data-query="girls hostel near Koteshwor with WiFi and hot water under 12000">girls hostel near Koteshwor...</button>
+        <button class="hf-chip" data-query="boys hostel with study room and laundry near Pulchowk under 15000">boys hostel near Pulchowk...</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p class="hf-disclaimer-note"><i class="bi bi-info-circle"></i> This dataset is synthetically generated for a class project — hostel names, ratings and reviews are sample data, not real listings.</p>
+  </div>
+
+  <div class="container hf-home-below">
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <div class="hf-feature-card">
+          <i class="bi bi-chat-square-text hf-feature-icon"></i>
+          <h5>Natural Language Search</h5>
+          <p>Tokenization, stop-word removal, lemmatization &amp; NER extract your location, budget, and facilities automatically.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="hf-feature-card">
+          <i class="bi bi-diagram-3 hf-feature-icon"></i>
+          <h5>Hybrid Recommendations</h5>
+          <p>Content-based filtering (40%) + collaborative filtering (35%) + sentiment ranking (25%) score every listing.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="hf-feature-card">
+          <i class="bi bi-emoji-smile hf-feature-icon"></i>
+          <h5>Sentiment-Aware Reviews</h5>
+          <p>VADER sentiment analysis reads every review's tone and folds it directly into hostel rankings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESULTS VIEW ============ -->
+<section id="view-results" class="hf-view d-none">
+  <div class="hf-results-header">
+    <div class="container">
+      <button class="btn btn-link hf-back-link" data-nav="home"><i class="bi bi-arrow-left"></i> New Search</button>
+      <h4 class="mb-1">Search Results</h4>
+      <p class="mb-3 hf-muted-light">Your query was processed using NLP</p>
+
+      <div class="row g-2" id="parsedQueryBadges"></div>
+      <div class="mt-2" id="parsedTokens"></div>
+      <div id="locationNote"></div>
+    </div>
+  </div>
+
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-lg-3 mb-4">
+        <div class="hf-filter-panel">
+          <h6 class="mb-3"><i class="bi bi-sliders"></i> Refine Filters</h6>
+          <div class="mb-3">
+            <label class="form-label hf-label">Area</label>
+            <select id="filterLocation" class="form-select form-select-sm">
+              <option value="">Any area</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Max budget (NPR/month)</label>
+            <input type="number" id="filterPrice" class="form-control form-control-sm" placeholder="e.g. 15000">
+          </div>
+          <div class="row g-2 mb-3">
+            <div class="col-6">
+              <label class="form-label hf-label">Hostel type</label>
+              <select id="filterType" class="form-select form-select-sm">
+                <option value="">Any</option>
+                <option value="boys">Boys</option>
+                <option value="girls">Girls</option>
+                <option value="mixed">Mixed</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label class="form-label hf-label">Room type</label>
+              <select id="filterRoomType" class="form-select form-select-sm">
+                <option value="">Any</option>
+                <option value="Single">Single</option>
+                <option value="Double">Double</option>
+                <option value="Triple">Triple</option>
+                <option value="Dorm">Dorm</option>
+              </select>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Amenities</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fMeals"> Meals included</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fWifi"> Wifi</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fLaundry"> Laundry</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fParking"> Parking</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fCctv"> CCTV</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fSecurity"> Security guard</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fStudyRoom"> Study room</label>
+            <label class="hf-amenity-check"><input type="checkbox" id="fHotWater"> Hot water</label>
+          </div>
+          <hr>
+          <div class="mb-3">
+            <label class="form-label hf-label"><i class="bi bi-mortarboard"></i> Near college / campus</label>
+            <select id="filterCollege" class="form-select form-select-sm">
+              <option value="">No campus selected</option>
+            </select>
+            <div class="form-text" style="font-size:0.72rem;">Results auto-sort by distance to the selected campus.</div>
+          </div>
+          <div class="mb-3" id="maxDistanceWrap" style="display:none;">
+            <label class="form-label hf-label">Max distance to campus (km)</label>
+            <input type="number" id="filterMaxDistance" class="form-control form-control-sm" placeholder="e.g. 3" step="0.5" min="0">
+          </div>
+          <button id="useLocationBtn" type="button" class="btn btn-sm hf-btn-secondary w-100 mb-2">
+            <i class="bi bi-crosshair"></i> Use my current location
+          </button>
+          <div id="locationStatus" class="small hf-muted mb-2"></div>
+          <button id="applyFiltersBtn" class="btn btn-sm hf-btn-primary w-100">Apply Filters</button>
+        </div>
+
+        <div class="hf-map-legend mt-3">
+          <div class="hf-legend-item"><span class="hf-legend-dot green"></span> Excellent match</div>
+          <div class="hf-legend-item"><span class="hf-legend-dot yellow"></span> Good match</div>
+          <div class="hf-legend-item"><span class="hf-legend-dot red"></span> Low match</div>
+        </div>
+      </div>
+
+      <div class="col-lg-9">
+        <div id="resultsMeta" class="mb-3 hf-muted"></div>
+        <div class="hf-results-split">
+          <div class="hf-results-list-col">
+            <div id="resultsList" class="d-flex flex-column gap-3"></div>
+            <div id="noResults" class="text-center py-5 d-none">
+              <i class="bi bi-emoji-frown" style="font-size:2.5rem;color:#94a3b8;"></i>
+              <p class="mt-2 hf-muted">No hostels matched. Try a broader query or fewer filters.</p>
+            </div>
+          </div>
+          <div class="hf-results-map-col">
+            <div id="resultsMap" class="hf-map"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BROWSE VIEW (plain filter browse, no NLP) ============ -->
+<section id="view-browse" class="hf-view d-none">
+  <div class="container py-4">
+    <h4 class="mb-3"><i class="bi bi-grid"></i> Browse All Hostels</h4>
+    <div class="hf-results-split">
+      <div class="hf-results-list-col">
+        <div id="browseList" class="d-flex flex-column gap-3"></div>
+      </div>
+      <div class="hf-results-map-col">
+        <div id="browseMap" class="hf-map"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOSTEL DETAIL VIEW ============ -->
+<section id="view-detail" class="hf-view d-none">
+  <div class="container py-4" id="detailContainer"></div>
+</section>
+
+<!-- ============ COMPARE VIEW ============ -->
+<section id="view-compare" class="hf-view d-none">
+  <div class="container py-4">
+    <h4 class="mb-3"><i class="bi bi-columns-gap"></i> Compare Hostels</h4>
+    <p class="hf-muted">Add hostels to compare from any listing card, then review them side-by-side.</p>
+    <div id="compareTableWrap" class="table-responsive"></div>
+    <div id="compareEmpty" class="text-center py-5">
+      <p class="hf-muted">You haven't added any hostels to compare yet.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OWNER / LIST-A-HOSTEL VIEW ============ -->
+<section id="view-owner" class="hf-view d-none">
+  <div class="container py-4" style="max-width:640px;">
+    <h4 class="mb-1"><i class="bi bi-building-add"></i> Hostel Management Portal</h4>
+    <p class="hf-muted mb-4">List and manage your hostel. Log in as an owner first.</p>
+    <form id="hostelForm" class="hf-form-card">
+      <div class="mb-3">
+        <label class="form-label hf-label">Hostel name</label>
+        <input required class="form-control" id="hName" placeholder="e.g. Green Valley Hostel">
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Location</label>
+          <input required class="form-control" id="hLocation" placeholder="e.g. Pulchowk">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Price (NPR/month)</label>
+          <input required type="number" class="form-control" id="hPrice" placeholder="e.g. 12000">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Hostel type</label>
+          <select id="hType" class="form-select">
+            <option value="mixed">Mixed</option>
+            <option value="boys">Boys</option>
+            <option value="girls">Girls</option>
+          </select>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Room type</label>
+          <select id="hRoomType" class="form-select">
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Triple">Triple</option>
+            <option value="Dorm">Dorm</option>
+          </select>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label hf-label">Amenities</label>
+        <div class="row">
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hMeals"> Meals included</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hWifi" checked> Wifi</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hLaundry"> Laundry</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hParking"> Parking</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hCctv"> CCTV</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hSecurity"> Security guard</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hStudyRoom"> Study room</label></div>
+          <div class="col-6"><label class="hf-amenity-check"><input type="checkbox" id="hHotWater"> Hot water</label></div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label hf-label">Description</label>
+        <textarea class="form-control" id="hDescription" rows="2" placeholder="Short description of your hostel"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Latitude <span class="hf-muted">(for the map, optional)</span></label>
+          <input type="number" step="any" class="form-control" id="hLatitude" placeholder="e.g. 27.7154">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label class="form-label hf-label">Longitude <span class="hf-muted">(for the map, optional)</span></label>
+          <input type="number" step="any" class="form-control" id="hLongitude" placeholder="e.g. 85.3123">
+        </div>
+      </div>
+      <button class="btn hf-btn-primary w-100" type="submit">Publish Listing</button>
+      <div id="ownerMsg" class="mt-3"></div>
+    </form>
+
+    <h5 class="mt-5 mb-3">Your Listings</h5>
+    <div id="myListings"></div>
+  </div>
+</section>
+
+<!-- ============ AUTH MODAL ============ -->
+<div class="modal fade" id="authModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content hf-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="authModalTitle">Log In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form id="authForm">
+          <div class="mb-3 d-none" id="usernameField">
+            <label class="form-label hf-label">Username</label>
+            <input class="form-control" id="authUsername">
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Email</label>
+            <input required type="email" class="form-control" id="authEmail">
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Password</label>
+            <input required type="password" class="form-control" id="authPassword">
+          </div>
+          <div class="mb-3 d-none" id="roleField">
+            <label class="form-label hf-label">I am a</label>
+            <select class="form-select" id="authRole">
+              <option value="student">Student</option>
+              <option value="owner">Hostel Owner</option>
+            </select>
+          </div>
+          <button type="submit" class="btn hf-btn-primary w-100" id="authSubmitBtn">Log In</button>
+          <p class="text-center mt-3 mb-0 hf-muted">
+            <a href="#" id="authToggleLink">Need an account? Register</a>
+          </p>
+          <div id="authMsg" class="mt-2"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ REVIEW MODAL ============ -->
+<div class="modal fade" id="reviewModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content hf-modal">
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Write a Review</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form id="reviewForm">
+          <input type="hidden" id="reviewHostelId">
+          <div class="mb-3">
+            <label class="form-label hf-label">Your name</label>
+            <input class="form-control" id="reviewerName" placeholder="Anonymous Student">
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Rating (1-5)</label>
+            <input required type="number" min="1" max="5" step="0.5" class="form-control" id="reviewRating">
+          </div>
+          <div class="mb-3">
+            <label class="form-label hf-label">Review</label>
+            <textarea required class="form-control" id="reviewText" rows="3" placeholder="How was your stay?"></textarea>
+          </div>
+          <button type="submit" class="btn hf-btn-primary w-100">Submit Review</button>
+          <div id="reviewMsg" class="mt-2"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="hf-footer">
+  <div class="container text-center">
+    <p class="mb-1">Hostel Khoj — Minor Project, Kantipur Engineering College</p>
+    <p class="mb-0 hf-muted-light small">NLP-powered hostel recommendation system for student accommodation in Kathmandu Valley. Hostel data is synthetically generated for demonstration purposes.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

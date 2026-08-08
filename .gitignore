@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache
+.pytest_cache/
+
+# Flutter/build files
+build/
+.dart_tool/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2402 @@
+review_id,hostel_id,review_text,sentiment,rating
+1,1,Food quality is decent.,Neutral,3.8
+2,1,Very clean rooms and friendly owner.,Positive,4.4
+3,1,Food quality is decent.,Neutral,4.6
+4,1,Affordable hostel with good WiFi.,Positive,3.1
+5,1,Peaceful environment for study.,Positive,4.7
+6,1,Bathrooms need improvement.,Negative,4.5
+7,1,Affordable hostel with good WiFi.,Positive,3.2
+8,2,Affordable hostel with good WiFi.,Positive,3.2
+9,2,Very clean rooms and friendly owner.,Positive,4.7
+10,2,Affordable hostel with good WiFi.,Positive,3.3
+11,2,Peaceful environment for study.,Positive,3.7
+12,2,Good value for money.,Positive,4.9
+13,2,Very clean rooms and friendly owner.,Positive,4.2
+14,3,Very clean rooms and friendly owner.,Positive,3.0
+15,3,Very clean rooms and friendly owner.,Positive,3.4
+16,3,Good value for money.,Positive,3.9
+17,3,Affordable hostel with good WiFi.,Positive,3.2
+18,3,Food quality is decent.,Neutral,3.2
+19,3,Peaceful environment for study.,Positive,3.1
+20,3,Bathrooms need improvement.,Negative,3.9
+21,3,Good value for money.,Positive,3.8
+22,4,Peaceful environment for study.,Positive,4.4
+23,4,Affordable hostel with good WiFi.,Positive,3.7
+24,4,Affordable hostel with good WiFi.,Positive,3.5
+25,4,Peaceful environment for study.,Positive,4.8
+26,4,Very clean rooms and friendly owner.,Positive,4.2
+27,4,Bathrooms need improvement.,Negative,3.5
+28,5,Peaceful environment for study.,Positive,3.8
+29,5,Bathrooms need improvement.,Negative,4.0
+30,5,Very clean rooms and friendly owner.,Positive,3.6
+31,5,Affordable hostel with good WiFi.,Positive,3.8
+32,5,Good value for money.,Positive,4.8
+33,5,Bathrooms need improvement.,Negative,3.5
+34,5,Bathrooms need improvement.,Negative,4.6
+35,5,Peaceful environment for study.,Positive,4.6
+36,6,Peaceful environment for study.,Positive,4.1
+37,6,Peaceful environment for study.,Positive,3.7
+38,6,Bathrooms need improvement.,Negative,4.0
+39,6,Peaceful environment for study.,Positive,3.5
+40,6,Very clean rooms and friendly owner.,Positive,3.6
+41,6,Affordable hostel with good WiFi.,Positive,3.1
+42,6,Food quality is decent.,Neutral,3.1
+43,6,Peaceful environment for study.,Positive,4.1
+44,7,Affordable hostel with good WiFi.,Positive,4.9
+45,7,Very clean rooms and friendly owner.,Positive,3.5
+46,7,Affordable hostel with good WiFi.,Positive,3.5
+47,7,Good value for money.,Positive,3.1
+48,7,Affordable hostel with good WiFi.,Positive,4.2
+49,7,Peaceful environment for study.,Positive,3.7
+50,7,Affordable hostel with good WiFi.,Positive,3.4
+51,7,Bathrooms need improvement.,Negative,3.6
+52,7,Good value for money.,Positive,4.4
+53,7,Bathrooms need improvement.,Negative,3.1
+54,8,Bathrooms need improvement.,Negative,4.1
+55,8,Bathrooms need improvement.,Negative,4.9
+56,8,Peaceful environment for study.,Positive,4.1
+57,8,Affordable hostel with good WiFi.,Positive,4.0
+58,8,Very clean rooms and friendly owner.,Positive,3.1
+59,8,Bathrooms need improvement.,Negative,3.4
+60,8,Bathrooms need improvement.,Negative,4.0
+61,8,Food quality is decent.,Neutral,4.8
+62,9,Affordable hostel with good WiFi.,Positive,3.7
+63,9,Affordable hostel with good WiFi.,Positive,4.8
+64,9,Food quality is decent.,Neutral,3.1
+65,9,Affordable hostel with good WiFi.,Positive,4.2
+66,9,Affordable hostel with good WiFi.,Positive,4.5
+67,9,Bathrooms need improvement.,Negative,4.7
+68,9,Very clean rooms and friendly owner.,Positive,3.7
+69,10,Bathrooms need improvement.,Negative,3.2
+70,10,Food quality is decent.,Neutral,3.6
+71,10,Affordable hostel with good WiFi.,Positive,4.5
+72,10,Peaceful environment for study.,Positive,4.6
+73,10,Peaceful environment for study.,Positive,4.3
+74,10,Affordable hostel with good WiFi.,Positive,4.4
+75,10,Bathrooms need improvement.,Negative,4.4
+76,10,Bathrooms need improvement.,Negative,4.6
+77,10,Affordable hostel with good WiFi.,Positive,4.3
+78,11,Peaceful environment for study.,Positive,3.6
+79,11,Good value for money.,Positive,3.6
+80,11,Affordable hostel with good WiFi.,Positive,4.5
+81,11,Good value for money.,Positive,4.9
+82,11,Peaceful environment for study.,Positive,4.7
+83,11,Bathrooms need improvement.,Negative,3.1
+84,11,Bathrooms need improvement.,Negative,3.6
+85,12,Affordable hostel with good WiFi.,Positive,4.3
+86,12,Very clean rooms and friendly owner.,Positive,4.9
+87,12,Affordable hostel with good WiFi.,Positive,3.7
+88,12,Very clean rooms and friendly owner.,Positive,3.5
+89,12,Food quality is decent.,Neutral,3.3
+90,12,Very clean rooms and friendly owner.,Positive,4.6
+91,12,Good value for money.,Positive,4.3
+92,12,Food quality is decent.,Neutral,3.9
+93,12,Food quality is decent.,Neutral,3.4
+94,12,Good value for money.,Positive,3.1
+95,13,Very clean rooms and friendly owner.,Positive,4.4
+96,13,Very clean rooms and friendly owner.,Positive,3.8
+97,13,Good value for money.,Positive,3.8
+98,13,Affordable hostel with good WiFi.,Positive,4.8
+99,13,Peaceful environment for study.,Positive,4.8
+100,13,Food quality is decent.,Neutral,4.1
+101,13,Very clean rooms and friendly owner.,Positive,4.7
+102,13,Bathrooms need improvement.,Negative,4.3
+103,14,Affordable hostel with good WiFi.,Positive,3.9
+104,14,Very clean rooms and friendly owner.,Positive,3.6
+105,14,Food quality is decent.,Neutral,3.5
+106,14,Very clean rooms and friendly owner.,Positive,3.1
+107,14,Affordable hostel with good WiFi.,Positive,4.8
+108,14,Affordable hostel with good WiFi.,Positive,4.5
+109,14,Bathrooms need improvement.,Negative,4.9
+110,15,Food quality is decent.,Neutral,4.2
+111,15,Bathrooms need improvement.,Negative,4.8
+112,15,Good value for money.,Positive,3.1
+113,15,Good value for money.,Positive,3.3
+114,15,Peaceful environment for study.,Positive,3.3
+115,15,Very clean rooms and friendly owner.,Positive,3.7
+116,16,Peaceful environment for study.,Positive,4.4
+117,16,Good value for money.,Positive,4.9
+118,16,Bathrooms need improvement.,Negative,3.5
+119,16,Food quality is decent.,Neutral,3.6
+120,16,Very clean rooms and friendly owner.,Positive,3.1
+121,16,Bathrooms need improvement.,Negative,4.1
+122,16,Peaceful environment for study.,Positive,3.3
+123,17,Very clean rooms and friendly owner.,Positive,3.9
+124,17,Food quality is decent.,Neutral,4.6
+125,17,Good value for money.,Positive,4.2
+126,17,Affordable hostel with good WiFi.,Positive,3.2
+127,17,Affordable hostel with good WiFi.,Positive,3.3
+128,17,Food quality is decent.,Neutral,5.0
+129,17,Peaceful environment for study.,Positive,4.7
+130,17,Food quality is decent.,Neutral,4.6
+131,18,Peaceful environment for study.,Positive,4.8
+132,18,Food quality is decent.,Neutral,3.2
+133,18,Bathrooms need improvement.,Negative,3.8
+134,18,Food quality is decent.,Neutral,4.8
+135,18,Food quality is decent.,Neutral,3.4
+136,18,Very clean rooms and friendly owner.,Positive,3.5
+137,18,Peaceful environment for study.,Positive,3.5
+138,18,Food quality is decent.,Neutral,4.1
+139,18,Affordable hostel with good WiFi.,Positive,4.5
+140,19,Very clean rooms and friendly owner.,Positive,4.3
+141,19,Bathrooms need improvement.,Negative,3.8
+142,19,Bathrooms need improvement.,Negative,3.5
+143,19,Very clean rooms and friendly owner.,Positive,4.7
+144,19,Bathrooms need improvement.,Negative,3.8
+145,19,Bathrooms need improvement.,Negative,4.4
+146,20,Bathrooms need improvement.,Negative,4.8
+147,20,Peaceful environment for study.,Positive,3.6
+148,20,Peaceful environment for study.,Positive,4.8
+149,20,Good value for money.,Positive,3.1
+150,20,Bathrooms need improvement.,Negative,4.8
+151,20,Bathrooms need improvement.,Negative,4.4
+152,20,Bathrooms need improvement.,Negative,3.3
+153,20,Peaceful environment for study.,Positive,3.3
+154,20,Affordable hostel with good WiFi.,Positive,4.9
+155,21,Affordable hostel with good WiFi.,Positive,3.1
+156,21,Very clean rooms and friendly owner.,Positive,5.0
+157,21,Peaceful environment for study.,Positive,3.4
+158,21,Good value for money.,Positive,3.3
+159,21,Bathrooms need improvement.,Negative,3.5
+160,21,Good value for money.,Positive,4.8
+161,21,Very clean rooms and friendly owner.,Positive,3.2
+162,22,Peaceful environment for study.,Positive,4.1
+163,22,Food quality is decent.,Neutral,4.0
+164,22,Very clean rooms and friendly owner.,Positive,4.6
+165,22,Bathrooms need improvement.,Negative,4.2
+166,22,Peaceful environment for study.,Positive,3.2
+167,22,Affordable hostel with good WiFi.,Positive,3.3
+168,22,Bathrooms need improvement.,Negative,4.2
+169,22,Very clean rooms and friendly owner.,Positive,4.8
+170,22,Bathrooms need improvement.,Negative,4.6
+171,22,Food quality is decent.,Neutral,4.7
+172,23,Peaceful environment for study.,Positive,3.5
+173,23,Good value for money.,Positive,4.0
+174,23,Bathrooms need improvement.,Negative,3.9
+175,23,Affordable hostel with good WiFi.,Positive,3.6
+176,23,Affordable hostel with good WiFi.,Positive,4.2
+177,23,Good value for money.,Positive,4.4
+178,23,Very clean rooms and friendly owner.,Positive,3.8
+179,23,Food quality is decent.,Neutral,4.4
+180,24,Good value for money.,Positive,4.0
+181,24,Food quality is decent.,Neutral,4.8
+182,24,Very clean rooms and friendly owner.,Positive,3.7
+183,24,Food quality is decent.,Neutral,3.6
+184,24,Peaceful environment for study.,Positive,4.7
+185,24,Good value for money.,Positive,3.2
+186,25,Affordable hostel with good WiFi.,Positive,3.6
+187,25,Good value for money.,Positive,3.9
+188,25,Food quality is decent.,Neutral,3.5
+189,25,Peaceful environment for study.,Positive,4.2
+190,25,Very clean rooms and friendly owner.,Positive,3.4
+191,25,Affordable hostel with good WiFi.,Positive,4.8
+192,25,Peaceful environment for study.,Positive,4.5
+193,26,Food quality is decent.,Neutral,4.6
+194,26,Bathrooms need improvement.,Negative,4.6
+195,26,Very clean rooms and friendly owner.,Positive,3.6
+196,26,Bathrooms need improvement.,Negative,3.8
+197,26,Bathrooms need improvement.,Negative,4.8
+198,26,Very clean rooms and friendly owner.,Positive,3.3
+199,26,Affordable hostel with good WiFi.,Positive,4.7
+200,26,Affordable hostel with good WiFi.,Positive,3.1
+201,26,Very clean rooms and friendly owner.,Positive,4.8
+202,26,Good value for money.,Positive,3.4
+203,27,Peaceful environment for study.,Positive,4.0
+204,27,Good value for money.,Positive,4.8
+205,27,Good value for money.,Positive,3.1
+206,27,Food quality is decent.,Neutral,4.0
+207,27,Peaceful environment for study.,Positive,3.4
+208,27,Peaceful environment for study.,Positive,4.2
+209,27,Food quality is decent.,Neutral,3.7
+210,27,Food quality is decent.,Neutral,4.5
+211,28,Food quality is decent.,Neutral,3.1
+212,28,Very clean rooms and friendly owner.,Positive,3.3
+213,28,Bathrooms need improvement.,Negative,4.6
+214,28,Affordable hostel with good WiFi.,Positive,4.7
+215,28,Good value for money.,Positive,3.5
+216,28,Affordable hostel with good WiFi.,Positive,3.5
+217,29,Bathrooms need improvement.,Negative,3.0
+218,29,Good value for money.,Positive,3.0
+219,29,Affordable hostel with good WiFi.,Positive,4.3
+220,29,Bathrooms need improvement.,Negative,4.6
+221,29,Affordable hostel with good WiFi.,Positive,3.5
+222,29,Food quality is decent.,Neutral,4.4
+223,29,Good value for money.,Positive,4.3
+224,29,Peaceful environment for study.,Positive,4.8
+225,29,Food quality is decent.,Neutral,3.9
+226,30,Peaceful environment for study.,Positive,3.6
+227,30,Bathrooms need improvement.,Negative,4.6
+228,30,Peaceful environment for study.,Positive,4.2
+229,30,Very clean rooms and friendly owner.,Positive,4.0
+230,30,Good value for money.,Positive,4.9
+231,30,Food quality is decent.,Neutral,4.1
+232,30,Bathrooms need improvement.,Negative,4.2
+233,31,Good value for money.,Positive,3.2
+234,31,Very clean rooms and friendly owner.,Positive,3.7
+235,31,Food quality is decent.,Neutral,4.3
+236,31,Food quality is decent.,Neutral,3.5
+237,31,Good value for money.,Positive,4.9
+238,31,Good value for money.,Positive,3.6
+239,31,Affordable hostel with good WiFi.,Positive,4.0
+240,31,Affordable hostel with good WiFi.,Positive,4.8
+241,32,Peaceful environment for study.,Positive,4.3
+242,32,Good value for money.,Positive,3.3
+243,32,Very clean rooms and friendly owner.,Positive,4.3
+244,32,Food quality is decent.,Neutral,3.5
+245,32,Peaceful environment for study.,Positive,3.8
+246,32,Good value for money.,Positive,3.1
+247,32,Good value for money.,Positive,5.0
+248,32,Affordable hostel with good WiFi.,Positive,3.7
+249,32,Good value for money.,Positive,3.4
+250,32,Bathrooms need improvement.,Negative,4.3
+251,33,Good value for money.,Positive,3.7
+252,33,Food quality is decent.,Neutral,4.7
+253,33,Good value for money.,Positive,4.8
+254,33,Affordable hostel with good WiFi.,Positive,3.6
+255,33,Peaceful environment for study.,Positive,3.3
+256,33,Food quality is decent.,Neutral,4.5
+257,33,Bathrooms need improvement.,Negative,4.5
+258,33,Affordable hostel with good WiFi.,Positive,4.9
+259,33,Food quality is decent.,Neutral,4.3
+260,34,Food quality is decent.,Neutral,3.4
+261,34,Food quality is decent.,Neutral,3.8
+262,34,Food quality is decent.,Neutral,3.7
+263,34,Bathrooms need improvement.,Negative,3.6
+264,34,Very clean rooms and friendly owner.,Positive,3.9
+265,34,Good value for money.,Positive,4.2
+266,34,Bathrooms need improvement.,Negative,3.1
+267,35,Bathrooms need improvement.,Negative,3.2
+268,35,Good value for money.,Positive,3.8
+269,35,Food quality is decent.,Neutral,3.8
+270,35,Affordable hostel with good WiFi.,Positive,3.3
+271,35,Affordable hostel with good WiFi.,Positive,3.7
+272,35,Bathrooms need improvement.,Negative,4.8
+273,35,Peaceful environment for study.,Positive,3.3
+274,36,Very clean rooms and friendly owner.,Positive,4.0
+275,36,Good value for money.,Positive,5.0
+276,36,Food quality is decent.,Neutral,4.3
+277,36,Very clean rooms and friendly owner.,Positive,3.9
+278,36,Affordable hostel with good WiFi.,Positive,4.5
+279,36,Affordable hostel with good WiFi.,Positive,4.2
+280,36,Affordable hostel with good WiFi.,Positive,4.0
+281,37,Affordable hostel with good WiFi.,Positive,4.2
+282,37,Good value for money.,Positive,3.9
+283,37,Peaceful environment for study.,Positive,4.9
+284,37,Peaceful environment for study.,Positive,3.0
+285,37,Bathrooms need improvement.,Negative,3.4
+286,37,Food quality is decent.,Neutral,4.9
+287,38,Bathrooms need improvement.,Negative,3.4
+288,38,Good value for money.,Positive,3.0
+289,38,Good value for money.,Positive,3.5
+290,38,Good value for money.,Positive,4.8
+291,38,Food quality is decent.,Neutral,3.3
+292,38,Peaceful environment for study.,Positive,4.0
+293,38,Food quality is decent.,Neutral,3.3
+294,38,Very clean rooms and friendly owner.,Positive,3.6
+295,39,Peaceful environment for study.,Positive,4.5
+296,39,Bathrooms need improvement.,Negative,4.0
+297,39,Peaceful environment for study.,Positive,4.8
+298,39,Affordable hostel with good WiFi.,Positive,3.7
+299,39,Peaceful environment for study.,Positive,3.7
+300,39,Affordable hostel with good WiFi.,Positive,3.3
+301,39,Peaceful environment for study.,Positive,3.0
+302,39,Affordable hostel with good WiFi.,Positive,4.5
+303,40,Affordable hostel with good WiFi.,Positive,4.5
+304,40,Bathrooms need improvement.,Negative,4.0
+305,40,Very clean rooms and friendly owner.,Positive,3.7
+306,40,Good value for money.,Positive,4.6
+307,40,Peaceful environment for study.,Positive,4.8
+308,40,Food quality is decent.,Neutral,4.5
+309,40,Bathrooms need improvement.,Negative,3.1
+310,41,Good value for money.,Positive,3.2
+311,41,Very clean rooms and friendly owner.,Positive,3.1
+312,41,Very clean rooms and friendly owner.,Positive,3.8
+313,41,Peaceful environment for study.,Positive,3.2
+314,41,Food quality is decent.,Neutral,3.9
+315,41,Affordable hostel with good WiFi.,Positive,3.4
+316,42,Food quality is decent.,Neutral,3.8
+317,42,Very clean rooms and friendly owner.,Positive,4.3
+318,42,Food quality is decent.,Neutral,4.2
+319,42,Good value for money.,Positive,3.3
+320,42,Very clean rooms and friendly owner.,Positive,4.0
+321,42,Bathrooms need improvement.,Negative,3.2
+322,43,Very clean rooms and friendly owner.,Positive,4.0
+323,43,Bathrooms need improvement.,Negative,3.4
+324,43,Food quality is decent.,Neutral,4.7
+325,43,Affordable hostel with good WiFi.,Positive,3.7
+326,43,Peaceful environment for study.,Positive,3.6
+327,43,Very clean rooms and friendly owner.,Positive,4.1
+328,44,Good value for money.,Positive,4.9
+329,44,Food quality is decent.,Neutral,3.5
+330,44,Very clean rooms and friendly owner.,Positive,4.3
+331,44,Very clean rooms and friendly owner.,Positive,4.7
+332,44,Good value for money.,Positive,4.0
+333,44,Very clean rooms and friendly owner.,Positive,4.6
+334,44,Very clean rooms and friendly owner.,Positive,4.4
+335,45,Food quality is decent.,Neutral,4.3
+336,45,Peaceful environment for study.,Positive,5.0
+337,45,Food quality is decent.,Neutral,3.5
+338,45,Very clean rooms and friendly owner.,Positive,3.2
+339,45,Affordable hostel with good WiFi.,Positive,4.7
+340,45,Food quality is decent.,Neutral,3.7
+341,46,Peaceful environment for study.,Positive,4.5
+342,46,Very clean rooms and friendly owner.,Positive,4.7
+343,46,Very clean rooms and friendly owner.,Positive,3.0
+344,46,Affordable hostel with good WiFi.,Positive,4.3
+345,46,Affordable hostel with good WiFi.,Positive,3.7
+346,46,Peaceful environment for study.,Positive,4.9
+347,46,Food quality is decent.,Neutral,4.8
+348,46,Very clean rooms and friendly owner.,Positive,3.7
+349,47,Affordable hostel with good WiFi.,Positive,3.2
+350,47,Peaceful environment for study.,Positive,4.9
+351,47,Food quality is decent.,Neutral,4.7
+352,47,Good value for money.,Positive,4.7
+353,47,Peaceful environment for study.,Positive,4.3
+354,47,Affordable hostel with good WiFi.,Positive,3.2
+355,47,Good value for money.,Positive,4.5
+356,47,Affordable hostel with good WiFi.,Positive,3.2
+357,48,Peaceful environment for study.,Positive,4.6
+358,48,Good value for money.,Positive,3.9
+359,48,Bathrooms need improvement.,Negative,3.8
+360,48,Food quality is decent.,Neutral,4.2
+361,48,Good value for money.,Positive,4.8
+362,48,Good value for money.,Positive,4.9
+363,48,Affordable hostel with good WiFi.,Positive,4.0
+364,48,Peaceful environment for study.,Positive,3.2
+365,48,Peaceful environment for study.,Positive,3.9
+366,48,Very clean rooms and friendly owner.,Positive,3.5
+367,49,Very clean rooms and friendly owner.,Positive,4.4
+368,49,Good value for money.,Positive,4.0
+369,49,Good value for money.,Positive,4.2
+370,49,Bathrooms need improvement.,Negative,3.4
+371,49,Good value for money.,Positive,4.7
+372,49,Bathrooms need improvement.,Negative,4.0
+373,49,Good value for money.,Positive,4.2
+374,49,Peaceful environment for study.,Positive,4.3
+375,50,Peaceful environment for study.,Positive,3.7
+376,50,Good value for money.,Positive,4.3
+377,50,Affordable hostel with good WiFi.,Positive,4.7
+378,50,Bathrooms need improvement.,Negative,4.8
+379,50,Bathrooms need improvement.,Negative,3.1
+380,50,Good value for money.,Positive,4.9
+381,50,Bathrooms need improvement.,Negative,4.7
+382,51,Affordable hostel with good WiFi.,Positive,3.1
+383,51,Peaceful environment for study.,Positive,3.6
+384,51,Food quality is decent.,Neutral,4.9
+385,51,Very clean rooms and friendly owner.,Positive,4.0
+386,51,Bathrooms need improvement.,Negative,4.3
+387,51,Peaceful environment for study.,Positive,4.6
+388,51,Very clean rooms and friendly owner.,Positive,3.9
+389,51,Bathrooms need improvement.,Negative,3.9
+390,51,Peaceful environment for study.,Positive,3.9
+391,52,Peaceful environment for study.,Positive,4.5
+392,52,Very clean rooms and friendly owner.,Positive,3.2
+393,52,Peaceful environment for study.,Positive,3.1
+394,52,Bathrooms need improvement.,Negative,3.0
+395,52,Very clean rooms and friendly owner.,Positive,4.6
+396,52,Bathrooms need improvement.,Negative,4.3
+397,53,Bathrooms need improvement.,Negative,3.4
+398,53,Good value for money.,Positive,3.9
+399,53,Food quality is decent.,Neutral,3.7
+400,53,Very clean rooms and friendly owner.,Positive,4.6
+401,53,Peaceful environment for study.,Positive,3.7
+402,53,Bathrooms need improvement.,Negative,4.2
+403,53,Good value for money.,Positive,4.3
+404,53,Good value for money.,Positive,3.9
+405,53,Very clean rooms and friendly owner.,Positive,4.5
+406,53,Affordable hostel with good WiFi.,Positive,3.0
+407,54,Good value for money.,Positive,4.9
+408,54,Food quality is decent.,Neutral,4.1
+409,54,Food quality is decent.,Neutral,4.4
+410,54,Very clean rooms and friendly owner.,Positive,4.8
+411,54,Peaceful environment for study.,Positive,3.3
+412,54,Good value for money.,Positive,4.5
+413,54,Peaceful environment for study.,Positive,3.2
+414,54,Bathrooms need improvement.,Negative,3.4
+415,55,Peaceful environment for study.,Positive,3.4
+416,55,Affordable hostel with good WiFi.,Positive,4.4
+417,55,Very clean rooms and friendly owner.,Positive,4.5
+418,55,Very clean rooms and friendly owner.,Positive,4.9
+419,55,Good value for money.,Positive,4.2
+420,55,Peaceful environment for study.,Positive,3.9
+421,56,Bathrooms need improvement.,Negative,3.3
+422,56,Peaceful environment for study.,Positive,3.0
+423,56,Good value for money.,Positive,3.1
+424,56,Peaceful environment for study.,Positive,4.7
+425,56,Peaceful environment for study.,Positive,4.8
+426,56,Affordable hostel with good WiFi.,Positive,4.4
+427,56,Affordable hostel with good WiFi.,Positive,4.5
+428,56,Affordable hostel with good WiFi.,Positive,3.2
+429,56,Good value for money.,Positive,4.2
+430,56,Food quality is decent.,Neutral,4.0
+431,57,Peaceful environment for study.,Positive,5.0
+432,57,Good value for money.,Positive,4.5
+433,57,Food quality is decent.,Neutral,3.8
+434,57,Food quality is decent.,Neutral,4.9
+435,57,Peaceful environment for study.,Positive,4.6
+436,57,Affordable hostel with good WiFi.,Positive,3.8
+437,57,Good value for money.,Positive,4.8
+438,57,Bathrooms need improvement.,Negative,3.6
+439,57,Good value for money.,Positive,4.1
+440,58,Good value for money.,Positive,4.5
+441,58,Bathrooms need improvement.,Negative,4.3
+442,58,Affordable hostel with good WiFi.,Positive,3.4
+443,58,Good value for money.,Positive,3.6
+444,58,Food quality is decent.,Neutral,4.8
+445,58,Affordable hostel with good WiFi.,Positive,5.0
+446,58,Good value for money.,Positive,5.0
+447,58,Affordable hostel with good WiFi.,Positive,4.0
+448,59,Good value for money.,Positive,3.2
+449,59,Food quality is decent.,Neutral,4.1
+450,59,Bathrooms need improvement.,Negative,4.1
+451,59,Good value for money.,Positive,4.4
+452,59,Good value for money.,Positive,4.5
+453,59,Bathrooms need improvement.,Negative,3.6
+454,59,Peaceful environment for study.,Positive,4.6
+455,59,Bathrooms need improvement.,Negative,3.2
+456,60,Affordable hostel with good WiFi.,Positive,3.1
+457,60,Very clean rooms and friendly owner.,Positive,3.4
+458,60,Affordable hostel with good WiFi.,Positive,5.0
+459,60,Good value for money.,Positive,3.5
+460,60,Very clean rooms and friendly owner.,Positive,4.4
+461,60,Food quality is decent.,Neutral,3.4
+462,60,Bathrooms need improvement.,Negative,3.1
+463,60,Peaceful environment for study.,Positive,3.2
+464,60,Good value for money.,Positive,4.5
+465,61,Good value for money.,Positive,4.3
+466,61,Peaceful environment for study.,Positive,3.5
+467,61,Good value for money.,Positive,3.6
+468,61,Good value for money.,Positive,3.1
+469,61,Peaceful environment for study.,Positive,3.8
+470,61,Good value for money.,Positive,3.6
+471,61,Bathrooms need improvement.,Negative,3.1
+472,62,Affordable hostel with good WiFi.,Positive,4.2
+473,62,Peaceful environment for study.,Positive,4.7
+474,62,Good value for money.,Positive,4.4
+475,62,Good value for money.,Positive,3.7
+476,62,Bathrooms need improvement.,Negative,4.1
+477,62,Bathrooms need improvement.,Negative,3.4
+478,62,Good value for money.,Positive,4.9
+479,62,Food quality is decent.,Neutral,3.9
+480,63,Affordable hostel with good WiFi.,Positive,4.9
+481,63,Good value for money.,Positive,4.0
+482,63,Peaceful environment for study.,Positive,3.1
+483,63,Food quality is decent.,Neutral,4.1
+484,63,Affordable hostel with good WiFi.,Positive,3.3
+485,63,Food quality is decent.,Neutral,3.0
+486,64,Good value for money.,Positive,4.9
+487,64,Very clean rooms and friendly owner.,Positive,3.3
+488,64,Food quality is decent.,Neutral,4.2
+489,64,Good value for money.,Positive,4.2
+490,64,Good value for money.,Positive,3.6
+491,64,Bathrooms need improvement.,Negative,4.1
+492,64,Very clean rooms and friendly owner.,Positive,4.6
+493,64,Food quality is decent.,Neutral,4.1
+494,64,Affordable hostel with good WiFi.,Positive,4.0
+495,65,Affordable hostel with good WiFi.,Positive,3.8
+496,65,Bathrooms need improvement.,Negative,3.8
+497,65,Food quality is decent.,Neutral,3.4
+498,65,Affordable hostel with good WiFi.,Positive,4.3
+499,65,Food quality is decent.,Neutral,3.7
+500,65,Affordable hostel with good WiFi.,Positive,4.9
+501,65,Bathrooms need improvement.,Negative,4.1
+502,65,Bathrooms need improvement.,Negative,4.6
+503,65,Good value for money.,Positive,3.0
+504,65,Good value for money.,Positive,3.7
+505,66,Good value for money.,Positive,4.2
+506,66,Bathrooms need improvement.,Negative,3.5
+507,66,Very clean rooms and friendly owner.,Positive,4.4
+508,66,Food quality is decent.,Neutral,3.8
+509,66,Very clean rooms and friendly owner.,Positive,3.8
+510,66,Bathrooms need improvement.,Negative,4.4
+511,66,Very clean rooms and friendly owner.,Positive,4.8
+512,67,Bathrooms need improvement.,Negative,4.6
+513,67,Peaceful environment for study.,Positive,4.0
+514,67,Food quality is decent.,Neutral,4.8
+515,67,Affordable hostel with good WiFi.,Positive,3.6
+516,67,Very clean rooms and friendly owner.,Positive,4.9
+517,67,Affordable hostel with good WiFi.,Positive,4.9
+518,67,Bathrooms need improvement.,Negative,4.1
+519,67,Good value for money.,Positive,3.1
+520,68,Good value for money.,Positive,3.8
+521,68,Very clean rooms and friendly owner.,Positive,3.4
+522,68,Good value for money.,Positive,4.8
+523,68,Good value for money.,Positive,4.6
+524,68,Good value for money.,Positive,4.6
+525,68,Very clean rooms and friendly owner.,Positive,4.5
+526,68,Affordable hostel with good WiFi.,Positive,3.0
+527,69,Very clean rooms and friendly owner.,Positive,3.2
+528,69,Very clean rooms and friendly owner.,Positive,3.4
+529,69,Food quality is decent.,Neutral,4.1
+530,69,Bathrooms need improvement.,Negative,4.6
+531,69,Food quality is decent.,Neutral,3.8
+532,69,Peaceful environment for study.,Positive,4.3
+533,69,Peaceful environment for study.,Positive,3.6
+534,69,Peaceful environment for study.,Positive,4.3
+535,70,Very clean rooms and friendly owner.,Positive,4.3
+536,70,Bathrooms need improvement.,Negative,3.1
+537,70,Good value for money.,Positive,4.2
+538,70,Good value for money.,Positive,4.7
+539,70,Food quality is decent.,Neutral,4.9
+540,70,Very clean rooms and friendly owner.,Positive,3.6
+541,70,Good value for money.,Positive,3.6
+542,70,Very clean rooms and friendly owner.,Positive,3.6
+543,70,Peaceful environment for study.,Positive,3.8
+544,70,Good value for money.,Positive,3.1
+545,71,Bathrooms need improvement.,Negative,3.4
+546,71,Good value for money.,Positive,3.8
+547,71,Bathrooms need improvement.,Negative,3.6
+548,71,Good value for money.,Positive,3.3
+549,71,Good value for money.,Positive,4.8
+550,71,Good value for money.,Positive,4.3
+551,71,Very clean rooms and friendly owner.,Positive,4.1
+552,72,Affordable hostel with good WiFi.,Positive,3.2
+553,72,Very clean rooms and friendly owner.,Positive,4.1
+554,72,Peaceful environment for study.,Positive,4.1
+555,72,Very clean rooms and friendly owner.,Positive,3.6
+556,72,Good value for money.,Positive,4.5
+557,72,Good value for money.,Positive,3.7
+558,72,Peaceful environment for study.,Positive,4.8
+559,72,Bathrooms need improvement.,Negative,3.3
+560,72,Affordable hostel with good WiFi.,Positive,3.4
+561,72,Food quality is decent.,Neutral,3.4
+562,73,Good value for money.,Positive,4.6
+563,73,Very clean rooms and friendly owner.,Positive,4.7
+564,73,Bathrooms need improvement.,Negative,3.9
+565,73,Bathrooms need improvement.,Negative,3.1
+566,73,Good value for money.,Positive,3.1
+567,73,Very clean rooms and friendly owner.,Positive,3.4
+568,73,Bathrooms need improvement.,Negative,4.0
+569,74,Food quality is decent.,Neutral,3.3
+570,74,Good value for money.,Positive,3.5
+571,74,Food quality is decent.,Neutral,4.2
+572,74,Affordable hostel with good WiFi.,Positive,3.6
+573,74,Peaceful environment for study.,Positive,3.7
+574,74,Good value for money.,Positive,3.6
+575,74,Bathrooms need improvement.,Negative,3.3
+576,74,Bathrooms need improvement.,Negative,3.7
+577,75,Peaceful environment for study.,Positive,3.3
+578,75,Food quality is decent.,Neutral,3.5
+579,75,Affordable hostel with good WiFi.,Positive,4.4
+580,75,Good value for money.,Positive,3.9
+581,75,Food quality is decent.,Neutral,3.3
+582,75,Good value for money.,Positive,3.7
+583,75,Peaceful environment for study.,Positive,3.9
+584,75,Food quality is decent.,Neutral,4.5
+585,76,Bathrooms need improvement.,Negative,3.2
+586,76,Good value for money.,Positive,4.2
+587,76,Food quality is decent.,Neutral,4.7
+588,76,Affordable hostel with good WiFi.,Positive,4.8
+589,76,Affordable hostel with good WiFi.,Positive,3.5
+590,76,Good value for money.,Positive,3.2
+591,76,Very clean rooms and friendly owner.,Positive,4.8
+592,76,Bathrooms need improvement.,Negative,4.3
+593,76,Bathrooms need improvement.,Negative,4.2
+594,77,Affordable hostel with good WiFi.,Positive,4.8
+595,77,Bathrooms need improvement.,Negative,3.5
+596,77,Bathrooms need improvement.,Negative,3.9
+597,77,Affordable hostel with good WiFi.,Positive,3.7
+598,77,Affordable hostel with good WiFi.,Positive,4.8
+599,77,Bathrooms need improvement.,Negative,4.5
+600,77,Food quality is decent.,Neutral,3.3
+601,77,Bathrooms need improvement.,Negative,4.0
+602,77,Peaceful environment for study.,Positive,3.7
+603,77,Very clean rooms and friendly owner.,Positive,4.3
+604,78,Good value for money.,Positive,3.3
+605,78,Bathrooms need improvement.,Negative,3.3
+606,78,Affordable hostel with good WiFi.,Positive,3.4
+607,78,Bathrooms need improvement.,Negative,4.3
+608,78,Affordable hostel with good WiFi.,Positive,4.5
+609,78,Peaceful environment for study.,Positive,4.9
+610,78,Very clean rooms and friendly owner.,Positive,3.4
+611,78,Peaceful environment for study.,Positive,3.5
+612,78,Food quality is decent.,Neutral,3.7
+613,78,Very clean rooms and friendly owner.,Positive,4.3
+614,79,Food quality is decent.,Neutral,3.8
+615,79,Peaceful environment for study.,Positive,4.8
+616,79,Very clean rooms and friendly owner.,Positive,5.0
+617,79,Food quality is decent.,Neutral,3.2
+618,79,Bathrooms need improvement.,Negative,4.3
+619,79,Food quality is decent.,Neutral,4.7
+620,79,Food quality is decent.,Neutral,4.2
+621,79,Bathrooms need improvement.,Negative,3.3
+622,79,Good value for money.,Positive,3.8
+623,79,Bathrooms need improvement.,Negative,4.3
+624,80,Bathrooms need improvement.,Negative,3.5
+625,80,Affordable hostel with good WiFi.,Positive,4.0
+626,80,Food quality is decent.,Neutral,4.6
+627,80,Food quality is decent.,Neutral,4.0
+628,80,Peaceful environment for study.,Positive,4.8
+629,80,Very clean rooms and friendly owner.,Positive,4.0
+630,81,Peaceful environment for study.,Positive,3.3
+631,81,Very clean rooms and friendly owner.,Positive,4.0
+632,81,Food quality is decent.,Neutral,3.4
+633,81,Affordable hostel with good WiFi.,Positive,3.3
+634,81,Bathrooms need improvement.,Negative,4.4
+635,81,Very clean rooms and friendly owner.,Positive,4.3
+636,81,Peaceful environment for study.,Positive,4.6
+637,82,Peaceful environment for study.,Positive,4.4
+638,82,Peaceful environment for study.,Positive,3.4
+639,82,Affordable hostel with good WiFi.,Positive,4.3
+640,82,Peaceful environment for study.,Positive,3.0
+641,82,Very clean rooms and friendly owner.,Positive,3.3
+642,82,Bathrooms need improvement.,Negative,3.3
+643,83,Very clean rooms and friendly owner.,Positive,4.8
+644,83,Affordable hostel with good WiFi.,Positive,3.1
+645,83,Food quality is decent.,Neutral,4.8
+646,83,Bathrooms need improvement.,Negative,4.9
+647,83,Bathrooms need improvement.,Negative,4.9
+648,83,Good value for money.,Positive,3.0
+649,83,Good value for money.,Positive,4.5
+650,83,Food quality is decent.,Neutral,4.9
+651,83,Affordable hostel with good WiFi.,Positive,3.9
+652,83,Peaceful environment for study.,Positive,4.7
+653,84,Affordable hostel with good WiFi.,Positive,4.7
+654,84,Bathrooms need improvement.,Negative,3.3
+655,84,Bathrooms need improvement.,Negative,4.6
+656,84,Affordable hostel with good WiFi.,Positive,4.2
+657,84,Bathrooms need improvement.,Negative,3.5
+658,84,Good value for money.,Positive,4.4
+659,84,Peaceful environment for study.,Positive,4.2
+660,85,Affordable hostel with good WiFi.,Positive,3.8
+661,85,Affordable hostel with good WiFi.,Positive,3.2
+662,85,Affordable hostel with good WiFi.,Positive,4.0
+663,85,Bathrooms need improvement.,Negative,4.4
+664,85,Affordable hostel with good WiFi.,Positive,4.2
+665,85,Affordable hostel with good WiFi.,Positive,4.0
+666,86,Bathrooms need improvement.,Negative,3.1
+667,86,Bathrooms need improvement.,Negative,4.0
+668,86,Very clean rooms and friendly owner.,Positive,3.2
+669,86,Good value for money.,Positive,3.3
+670,86,Bathrooms need improvement.,Negative,4.1
+671,86,Very clean rooms and friendly owner.,Positive,4.8
+672,86,Good value for money.,Positive,4.3
+673,86,Bathrooms need improvement.,Negative,3.8
+674,86,Very clean rooms and friendly owner.,Positive,4.4
+675,86,Peaceful environment for study.,Positive,3.5
+676,87,Peaceful environment for study.,Positive,3.7
+677,87,Good value for money.,Positive,4.8
+678,87,Good value for money.,Positive,4.2
+679,87,Peaceful environment for study.,Positive,3.3
+680,87,Peaceful environment for study.,Positive,4.5
+681,87,Very clean rooms and friendly owner.,Positive,3.6
+682,87,Bathrooms need improvement.,Negative,3.8
+683,87,Affordable hostel with good WiFi.,Positive,3.0
+684,87,Good value for money.,Positive,4.6
+685,88,Bathrooms need improvement.,Negative,3.2
+686,88,Very clean rooms and friendly owner.,Positive,3.8
+687,88,Affordable hostel with good WiFi.,Positive,4.4
+688,88,Food quality is decent.,Neutral,3.8
+689,88,Very clean rooms and friendly owner.,Positive,3.3
+690,88,Good value for money.,Positive,4.2
+691,88,Food quality is decent.,Neutral,4.7
+692,88,Peaceful environment for study.,Positive,4.1
+693,88,Bathrooms need improvement.,Negative,3.6
+694,88,Good value for money.,Positive,3.8
+695,89,Peaceful environment for study.,Positive,4.1
+696,89,Bathrooms need improvement.,Negative,4.0
+697,89,Food quality is decent.,Neutral,4.1
+698,89,Peaceful environment for study.,Positive,3.5
+699,89,Food quality is decent.,Neutral,4.2
+700,89,Good value for money.,Positive,3.8
+701,89,Affordable hostel with good WiFi.,Positive,4.7
+702,90,Good value for money.,Positive,3.5
+703,90,Good value for money.,Positive,4.9
+704,90,Very clean rooms and friendly owner.,Positive,3.4
+705,90,Peaceful environment for study.,Positive,4.6
+706,90,Bathrooms need improvement.,Negative,4.2
+707,90,Good value for money.,Positive,4.4
+708,91,Peaceful environment for study.,Positive,4.9
+709,91,Very clean rooms and friendly owner.,Positive,4.6
+710,91,Affordable hostel with good WiFi.,Positive,3.9
+711,91,Bathrooms need improvement.,Negative,3.9
+712,91,Very clean rooms and friendly owner.,Positive,3.5
+713,91,Food quality is decent.,Neutral,3.2
+714,91,Very clean rooms and friendly owner.,Positive,4.4
+715,92,Bathrooms need improvement.,Negative,4.3
+716,92,Food quality is decent.,Neutral,4.4
+717,92,Bathrooms need improvement.,Negative,3.1
+718,92,Affordable hostel with good WiFi.,Positive,4.3
+719,92,Peaceful environment for study.,Positive,3.0
+720,92,Good value for money.,Positive,4.9
+721,92,Bathrooms need improvement.,Negative,3.6
+722,92,Very clean rooms and friendly owner.,Positive,4.6
+723,92,Bathrooms need improvement.,Negative,4.0
+724,93,Bathrooms need improvement.,Negative,3.3
+725,93,Very clean rooms and friendly owner.,Positive,3.7
+726,93,Good value for money.,Positive,3.0
+727,93,Affordable hostel with good WiFi.,Positive,3.2
+728,93,Food quality is decent.,Neutral,4.6
+729,93,Food quality is decent.,Neutral,4.3
+730,93,Peaceful environment for study.,Positive,4.2
+731,94,Very clean rooms and friendly owner.,Positive,4.5
+732,94,Very clean rooms and friendly owner.,Positive,4.8
+733,94,Bathrooms need improvement.,Negative,3.6
+734,94,Bathrooms need improvement.,Negative,4.8
+735,94,Food quality is decent.,Neutral,3.7
+736,94,Food quality is decent.,Neutral,3.5
+737,94,Affordable hostel with good WiFi.,Positive,3.9
+738,94,Peaceful environment for study.,Positive,4.1
+739,94,Food quality is decent.,Neutral,3.4
+740,94,Bathrooms need improvement.,Negative,3.2
+741,95,Bathrooms need improvement.,Negative,3.6
+742,95,Very clean rooms and friendly owner.,Positive,4.6
+743,95,Food quality is decent.,Neutral,4.8
+744,95,Bathrooms need improvement.,Negative,3.5
+745,95,Peaceful environment for study.,Positive,4.9
+746,95,Bathrooms need improvement.,Negative,4.0
+747,96,Food quality is decent.,Neutral,4.9
+748,96,Peaceful environment for study.,Positive,4.4
+749,96,Bathrooms need improvement.,Negative,4.7
+750,96,Peaceful environment for study.,Positive,3.2
+751,96,Very clean rooms and friendly owner.,Positive,3.8
+752,96,Affordable hostel with good WiFi.,Positive,4.4
+753,96,Affordable hostel with good WiFi.,Positive,4.6
+754,97,Food quality is decent.,Neutral,4.0
+755,97,Very clean rooms and friendly owner.,Positive,4.4
+756,97,Food quality is decent.,Neutral,3.5
+757,97,Very clean rooms and friendly owner.,Positive,3.8
+758,97,Good value for money.,Positive,4.6
+759,97,Very clean rooms and friendly owner.,Positive,4.1
+760,97,Affordable hostel with good WiFi.,Positive,4.0
+761,97,Food quality is decent.,Neutral,3.4
+762,97,Bathrooms need improvement.,Negative,3.5
+763,98,Peaceful environment for study.,Positive,4.5
+764,98,Affordable hostel with good WiFi.,Positive,4.5
+765,98,Food quality is decent.,Neutral,3.4
+766,98,Affordable hostel with good WiFi.,Positive,4.7
+767,98,Bathrooms need improvement.,Negative,3.7
+768,98,Very clean rooms and friendly owner.,Positive,3.2
+769,98,Very clean rooms and friendly owner.,Positive,4.4
+770,99,Bathrooms need improvement.,Negative,3.0
+771,99,Bathrooms need improvement.,Negative,4.9
+772,99,Peaceful environment for study.,Positive,3.7
+773,99,Food quality is decent.,Neutral,4.0
+774,99,Bathrooms need improvement.,Negative,4.7
+775,99,Peaceful environment for study.,Positive,3.4
+776,99,Bathrooms need improvement.,Negative,3.6
+777,99,Affordable hostel with good WiFi.,Positive,4.5
+778,99,Affordable hostel with good WiFi.,Positive,3.1
+779,100,Peaceful environment for study.,Positive,4.9
+780,100,Very clean rooms and friendly owner.,Positive,4.0
+781,100,Peaceful environment for study.,Positive,4.7
+782,100,Affordable hostel with good WiFi.,Positive,3.9
+783,100,Very clean rooms and friendly owner.,Positive,4.4
+784,100,Peaceful environment for study.,Positive,3.6
+785,100,Very clean rooms and friendly owner.,Positive,3.0
+786,100,Affordable hostel with good WiFi.,Positive,3.8
+787,100,Very clean rooms and friendly owner.,Positive,3.7
+788,101,Food quality is decent.,Neutral,3.4
+789,101,Food quality is decent.,Neutral,3.5
+790,101,Peaceful environment for study.,Positive,4.9
+791,101,Food quality is decent.,Neutral,3.7
+792,101,Peaceful environment for study.,Positive,3.8
+793,101,Peaceful environment for study.,Positive,4.4
+794,101,Food quality is decent.,Neutral,3.7
+795,101,Peaceful environment for study.,Positive,3.6
+796,101,Affordable hostel with good WiFi.,Positive,4.1
+797,101,Bathrooms need improvement.,Negative,4.4
+798,102,Good value for money.,Positive,3.5
+799,102,Affordable hostel with good WiFi.,Positive,4.1
+800,102,Peaceful environment for study.,Positive,3.4
+801,102,Good value for money.,Positive,3.3
+802,102,Very clean rooms and friendly owner.,Positive,3.4
+803,102,Peaceful environment for study.,Positive,3.3
+804,103,Bathrooms need improvement.,Negative,4.4
+805,103,Peaceful environment for study.,Positive,3.6
+806,103,Bathrooms need improvement.,Negative,4.7
+807,103,Very clean rooms and friendly owner.,Positive,3.8
+808,103,Good value for money.,Positive,3.3
+809,103,Affordable hostel with good WiFi.,Positive,4.6
+810,103,Peaceful environment for study.,Positive,4.7
+811,103,Very clean rooms and friendly owner.,Positive,3.9
+812,103,Food quality is decent.,Neutral,3.5
+813,103,Food quality is decent.,Neutral,4.1
+814,104,Food quality is decent.,Neutral,3.0
+815,104,Very clean rooms and friendly owner.,Positive,3.7
+816,104,Good value for money.,Positive,4.9
+817,104,Affordable hostel with good WiFi.,Positive,4.2
+818,104,Good value for money.,Positive,4.3
+819,104,Affordable hostel with good WiFi.,Positive,5.0
+820,104,Food quality is decent.,Neutral,3.7
+821,104,Good value for money.,Positive,4.0
+822,105,Very clean rooms and friendly owner.,Positive,3.8
+823,105,Food quality is decent.,Neutral,3.9
+824,105,Affordable hostel with good WiFi.,Positive,4.7
+825,105,Good value for money.,Positive,4.6
+826,105,Food quality is decent.,Neutral,3.8
+827,105,Bathrooms need improvement.,Negative,4.1
+828,105,Very clean rooms and friendly owner.,Positive,3.2
+829,105,Food quality is decent.,Neutral,3.5
+830,105,Food quality is decent.,Neutral,4.3
+831,106,Bathrooms need improvement.,Negative,4.3
+832,106,Food quality is decent.,Neutral,4.8
+833,106,Food quality is decent.,Neutral,4.5
+834,106,Bathrooms need improvement.,Negative,4.9
+835,106,Peaceful environment for study.,Positive,3.3
+836,106,Very clean rooms and friendly owner.,Positive,3.3
+837,106,Affordable hostel with good WiFi.,Positive,4.3
+838,106,Good value for money.,Positive,4.4
+839,107,Affordable hostel with good WiFi.,Positive,3.3
+840,107,Very clean rooms and friendly owner.,Positive,3.2
+841,107,Peaceful environment for study.,Positive,4.1
+842,107,Very clean rooms and friendly owner.,Positive,4.5
+843,107,Bathrooms need improvement.,Negative,4.5
+844,107,Very clean rooms and friendly owner.,Positive,3.2
+845,108,Affordable hostel with good WiFi.,Positive,3.2
+846,108,Peaceful environment for study.,Positive,3.6
+847,108,Affordable hostel with good WiFi.,Positive,4.5
+848,108,Peaceful environment for study.,Positive,4.3
+849,108,Affordable hostel with good WiFi.,Positive,4.1
+850,108,Affordable hostel with good WiFi.,Positive,3.1
+851,108,Good value for money.,Positive,3.7
+852,108,Food quality is decent.,Neutral,4.7
+853,108,Peaceful environment for study.,Positive,4.9
+854,108,Bathrooms need improvement.,Negative,4.9
+855,109,Peaceful environment for study.,Positive,3.3
+856,109,Good value for money.,Positive,4.1
+857,109,Bathrooms need improvement.,Negative,4.2
+858,109,Good value for money.,Positive,4.5
+859,109,Bathrooms need improvement.,Negative,3.9
+860,109,Good value for money.,Positive,4.3
+861,109,Food quality is decent.,Neutral,4.8
+862,109,Peaceful environment for study.,Positive,4.1
+863,109,Very clean rooms and friendly owner.,Positive,3.9
+864,109,Food quality is decent.,Neutral,3.8
+865,110,Food quality is decent.,Neutral,3.0
+866,110,Bathrooms need improvement.,Negative,4.6
+867,110,Affordable hostel with good WiFi.,Positive,3.7
+868,110,Peaceful environment for study.,Positive,4.1
+869,110,Good value for money.,Positive,4.8
+870,110,Peaceful environment for study.,Positive,3.6
+871,110,Peaceful environment for study.,Positive,4.6
+872,111,Affordable hostel with good WiFi.,Positive,4.6
+873,111,Bathrooms need improvement.,Negative,3.7
+874,111,Peaceful environment for study.,Positive,4.8
+875,111,Peaceful environment for study.,Positive,3.8
+876,111,Affordable hostel with good WiFi.,Positive,4.4
+877,111,Good value for money.,Positive,3.8
+878,111,Peaceful environment for study.,Positive,3.4
+879,111,Very clean rooms and friendly owner.,Positive,3.8
+880,111,Affordable hostel with good WiFi.,Positive,4.0
+881,111,Bathrooms need improvement.,Negative,4.6
+882,112,Food quality is decent.,Neutral,4.3
+883,112,Bathrooms need improvement.,Negative,4.6
+884,112,Peaceful environment for study.,Positive,3.4
+885,112,Very clean rooms and friendly owner.,Positive,3.4
+886,112,Food quality is decent.,Neutral,3.2
+887,112,Peaceful environment for study.,Positive,4.2
+888,112,Food quality is decent.,Neutral,4.4
+889,112,Peaceful environment for study.,Positive,3.4
+890,113,Affordable hostel with good WiFi.,Positive,3.1
+891,113,Bathrooms need improvement.,Negative,3.0
+892,113,Very clean rooms and friendly owner.,Positive,3.6
+893,113,Affordable hostel with good WiFi.,Positive,4.4
+894,113,Good value for money.,Positive,3.0
+895,113,Very clean rooms and friendly owner.,Positive,3.3
+896,114,Affordable hostel with good WiFi.,Positive,3.7
+897,114,Food quality is decent.,Neutral,4.6
+898,114,Peaceful environment for study.,Positive,5.0
+899,114,Peaceful environment for study.,Positive,4.4
+900,114,Very clean rooms and friendly owner.,Positive,3.7
+901,114,Affordable hostel with good WiFi.,Positive,3.1
+902,114,Peaceful environment for study.,Positive,3.1
+903,114,Peaceful environment for study.,Positive,3.4
+904,114,Food quality is decent.,Neutral,4.6
+905,115,Very clean rooms and friendly owner.,Positive,4.9
+906,115,Good value for money.,Positive,3.5
+907,115,Peaceful environment for study.,Positive,3.5
+908,115,Very clean rooms and friendly owner.,Positive,3.4
+909,115,Good value for money.,Positive,4.5
+910,115,Bathrooms need improvement.,Negative,4.3
+911,116,Peaceful environment for study.,Positive,3.8
+912,116,Food quality is decent.,Neutral,4.9
+913,116,Affordable hostel with good WiFi.,Positive,4.3
+914,116,Very clean rooms and friendly owner.,Positive,4.5
+915,116,Bathrooms need improvement.,Negative,4.0
+916,116,Food quality is decent.,Neutral,4.0
+917,116,Food quality is decent.,Neutral,3.4
+918,117,Good value for money.,Positive,3.4
+919,117,Very clean rooms and friendly owner.,Positive,3.5
+920,117,Peaceful environment for study.,Positive,3.6
+921,117,Affordable hostel with good WiFi.,Positive,4.6
+922,117,Bathrooms need improvement.,Negative,3.2
+923,117,Affordable hostel with good WiFi.,Positive,3.0
+924,118,Bathrooms need improvement.,Negative,4.6
+925,118,Peaceful environment for study.,Positive,4.4
+926,118,Affordable hostel with good WiFi.,Positive,3.7
+927,118,Very clean rooms and friendly owner.,Positive,3.5
+928,118,Peaceful environment for study.,Positive,3.2
+929,118,Bathrooms need improvement.,Negative,3.7
+930,119,Very clean rooms and friendly owner.,Positive,3.7
+931,119,Affordable hostel with good WiFi.,Positive,4.4
+932,119,Very clean rooms and friendly owner.,Positive,3.3
+933,119,Affordable hostel with good WiFi.,Positive,3.6
+934,119,Bathrooms need improvement.,Negative,4.6
+935,119,Food quality is decent.,Neutral,4.6
+936,120,Good value for money.,Positive,3.4
+937,120,Good value for money.,Positive,3.8
+938,120,Good value for money.,Positive,3.3
+939,120,Very clean rooms and friendly owner.,Positive,4.0
+940,120,Peaceful environment for study.,Positive,4.1
+941,120,Bathrooms need improvement.,Negative,4.4
+942,120,Affordable hostel with good WiFi.,Positive,4.1
+943,120,Bathrooms need improvement.,Negative,3.7
+944,120,Good value for money.,Positive,3.9
+945,121,Bathrooms need improvement.,Negative,3.3
+946,121,Bathrooms need improvement.,Negative,3.3
+947,121,Food quality is decent.,Neutral,4.6
+948,121,Bathrooms need improvement.,Negative,3.7
+949,121,Very clean rooms and friendly owner.,Positive,4.6
+950,121,Bathrooms need improvement.,Negative,3.8
+951,121,Affordable hostel with good WiFi.,Positive,4.8
+952,121,Bathrooms need improvement.,Negative,4.7
+953,121,Bathrooms need improvement.,Negative,3.5
+954,121,Good value for money.,Positive,3.1
+955,122,Peaceful environment for study.,Positive,3.4
+956,122,Good value for money.,Positive,4.0
+957,122,Bathrooms need improvement.,Negative,3.3
+958,122,Food quality is decent.,Neutral,3.6
+959,122,Good value for money.,Positive,3.6
+960,122,Very clean rooms and friendly owner.,Positive,4.0
+961,122,Very clean rooms and friendly owner.,Positive,3.1
+962,122,Affordable hostel with good WiFi.,Positive,3.4
+963,122,Very clean rooms and friendly owner.,Positive,3.4
+964,122,Peaceful environment for study.,Positive,3.4
+965,123,Bathrooms need improvement.,Negative,4.3
+966,123,Peaceful environment for study.,Positive,4.3
+967,123,Bathrooms need improvement.,Negative,4.2
+968,123,Bathrooms need improvement.,Negative,3.5
+969,123,Food quality is decent.,Neutral,3.4
+970,123,Good value for money.,Positive,3.1
+971,124,Good value for money.,Positive,4.0
+972,124,Very clean rooms and friendly owner.,Positive,3.9
+973,124,Good value for money.,Positive,3.1
+974,124,Bathrooms need improvement.,Negative,4.5
+975,124,Peaceful environment for study.,Positive,4.6
+976,124,Good value for money.,Positive,3.1
+977,124,Bathrooms need improvement.,Negative,3.5
+978,125,Good value for money.,Positive,3.1
+979,125,Food quality is decent.,Neutral,3.2
+980,125,Affordable hostel with good WiFi.,Positive,4.9
+981,125,Very clean rooms and friendly owner.,Positive,3.2
+982,125,Affordable hostel with good WiFi.,Positive,4.1
+983,125,Affordable hostel with good WiFi.,Positive,3.4
+984,126,Bathrooms need improvement.,Negative,4.3
+985,126,Affordable hostel with good WiFi.,Positive,4.1
+986,126,Bathrooms need improvement.,Negative,3.8
+987,126,Very clean rooms and friendly owner.,Positive,4.5
+988,126,Bathrooms need improvement.,Negative,3.7
+989,126,Peaceful environment for study.,Positive,4.4
+990,126,Peaceful environment for study.,Positive,4.8
+991,127,Affordable hostel with good WiFi.,Positive,4.1
+992,127,Bathrooms need improvement.,Negative,3.7
+993,127,Affordable hostel with good WiFi.,Positive,4.1
+994,127,Bathrooms need improvement.,Negative,3.9
+995,127,Food quality is decent.,Neutral,4.8
+996,127,Bathrooms need improvement.,Negative,5.0
+997,127,Food quality is decent.,Neutral,4.7
+998,128,Good value for money.,Positive,3.9
+999,128,Good value for money.,Positive,3.6
+1000,128,Affordable hostel with good WiFi.,Positive,4.1
+1001,128,Affordable hostel with good WiFi.,Positive,3.8
+1002,128,Bathrooms need improvement.,Negative,4.9
+1003,128,Food quality is decent.,Neutral,3.7
+1004,128,Peaceful environment for study.,Positive,3.9
+1005,128,Peaceful environment for study.,Positive,3.0
+1006,128,Very clean rooms and friendly owner.,Positive,5.0
+1007,129,Very clean rooms and friendly owner.,Positive,4.0
+1008,129,Food quality is decent.,Neutral,3.0
+1009,129,Affordable hostel with good WiFi.,Positive,3.4
+1010,129,Food quality is decent.,Neutral,3.0
+1011,129,Good value for money.,Positive,4.6
+1012,129,Bathrooms need improvement.,Negative,4.0
+1013,129,Bathrooms need improvement.,Negative,4.9
+1014,129,Affordable hostel with good WiFi.,Positive,3.2
+1015,129,Peaceful environment for study.,Positive,3.7
+1016,129,Affordable hostel with good WiFi.,Positive,3.5
+1017,130,Affordable hostel with good WiFi.,Positive,3.5
+1018,130,Food quality is decent.,Neutral,3.2
+1019,130,Peaceful environment for study.,Positive,4.1
+1020,130,Affordable hostel with good WiFi.,Positive,4.5
+1021,130,Good value for money.,Positive,3.6
+1022,130,Peaceful environment for study.,Positive,3.3
+1023,130,Good value for money.,Positive,4.4
+1024,130,Very clean rooms and friendly owner.,Positive,4.2
+1025,130,Food quality is decent.,Neutral,3.1
+1026,130,Bathrooms need improvement.,Negative,3.8
+1027,131,Food quality is decent.,Neutral,3.7
+1028,131,Peaceful environment for study.,Positive,3.8
+1029,131,Very clean rooms and friendly owner.,Positive,4.7
+1030,131,Affordable hostel with good WiFi.,Positive,4.5
+1031,131,Bathrooms need improvement.,Negative,4.9
+1032,131,Good value for money.,Positive,4.6
+1033,132,Very clean rooms and friendly owner.,Positive,3.6
+1034,132,Very clean rooms and friendly owner.,Positive,3.6
+1035,132,Bathrooms need improvement.,Negative,3.3
+1036,132,Bathrooms need improvement.,Negative,4.4
+1037,132,Affordable hostel with good WiFi.,Positive,3.1
+1038,132,Good value for money.,Positive,5.0
+1039,132,Peaceful environment for study.,Positive,4.5
+1040,132,Bathrooms need improvement.,Negative,4.0
+1041,132,Affordable hostel with good WiFi.,Positive,3.9
+1042,133,Affordable hostel with good WiFi.,Positive,3.3
+1043,133,Very clean rooms and friendly owner.,Positive,4.0
+1044,133,Good value for money.,Positive,3.1
+1045,133,Peaceful environment for study.,Positive,3.5
+1046,133,Peaceful environment for study.,Positive,4.0
+1047,133,Good value for money.,Positive,3.3
+1048,133,Affordable hostel with good WiFi.,Positive,4.0
+1049,133,Affordable hostel with good WiFi.,Positive,4.0
+1050,133,Good value for money.,Positive,4.1
+1051,134,Bathrooms need improvement.,Negative,5.0
+1052,134,Bathrooms need improvement.,Negative,3.5
+1053,134,Very clean rooms and friendly owner.,Positive,3.5
+1054,134,Peaceful environment for study.,Positive,3.6
+1055,134,Bathrooms need improvement.,Negative,3.2
+1056,134,Good value for money.,Positive,3.8
+1057,134,Food quality is decent.,Neutral,3.7
+1058,134,Food quality is decent.,Neutral,3.7
+1059,134,Good value for money.,Positive,3.0
+1060,134,Food quality is decent.,Neutral,3.3
+1061,135,Bathrooms need improvement.,Negative,4.6
+1062,135,Peaceful environment for study.,Positive,4.2
+1063,135,Peaceful environment for study.,Positive,3.1
+1064,135,Affordable hostel with good WiFi.,Positive,3.4
+1065,135,Food quality is decent.,Neutral,3.3
+1066,135,Good value for money.,Positive,4.7
+1067,135,Very clean rooms and friendly owner.,Positive,4.5
+1068,135,Affordable hostel with good WiFi.,Positive,4.9
+1069,136,Food quality is decent.,Neutral,3.0
+1070,136,Good value for money.,Positive,4.6
+1071,136,Food quality is decent.,Neutral,3.9
+1072,136,Very clean rooms and friendly owner.,Positive,3.7
+1073,136,Good value for money.,Positive,4.1
+1074,136,Affordable hostel with good WiFi.,Positive,4.1
+1075,136,Food quality is decent.,Neutral,4.1
+1076,137,Good value for money.,Positive,5.0
+1077,137,Good value for money.,Positive,4.4
+1078,137,Very clean rooms and friendly owner.,Positive,3.8
+1079,137,Good value for money.,Positive,4.1
+1080,137,Food quality is decent.,Neutral,3.3
+1081,137,Food quality is decent.,Neutral,3.4
+1082,137,Good value for money.,Positive,4.2
+1083,137,Very clean rooms and friendly owner.,Positive,3.9
+1084,137,Very clean rooms and friendly owner.,Positive,3.1
+1085,137,Good value for money.,Positive,3.5
+1086,138,Very clean rooms and friendly owner.,Positive,3.0
+1087,138,Good value for money.,Positive,3.8
+1088,138,Peaceful environment for study.,Positive,4.0
+1089,138,Good value for money.,Positive,3.2
+1090,138,Food quality is decent.,Neutral,4.0
+1091,138,Bathrooms need improvement.,Negative,4.1
+1092,138,Affordable hostel with good WiFi.,Positive,3.4
+1093,138,Peaceful environment for study.,Positive,4.1
+1094,139,Very clean rooms and friendly owner.,Positive,3.5
+1095,139,Bathrooms need improvement.,Negative,3.6
+1096,139,Peaceful environment for study.,Positive,3.8
+1097,139,Affordable hostel with good WiFi.,Positive,3.0
+1098,139,Good value for money.,Positive,3.7
+1099,139,Good value for money.,Positive,3.6
+1100,140,Food quality is decent.,Neutral,4.6
+1101,140,Good value for money.,Positive,3.5
+1102,140,Peaceful environment for study.,Positive,4.8
+1103,140,Very clean rooms and friendly owner.,Positive,4.9
+1104,140,Food quality is decent.,Neutral,3.5
+1105,140,Food quality is decent.,Neutral,4.8
+1106,140,Good value for money.,Positive,3.3
+1107,140,Good value for money.,Positive,3.8
+1108,140,Good value for money.,Positive,4.2
+1109,140,Good value for money.,Positive,4.4
+1110,141,Affordable hostel with good WiFi.,Positive,4.1
+1111,141,Peaceful environment for study.,Positive,4.9
+1112,141,Bathrooms need improvement.,Negative,3.7
+1113,141,Bathrooms need improvement.,Negative,3.3
+1114,141,Good value for money.,Positive,3.3
+1115,141,Bathrooms need improvement.,Negative,4.4
+1116,141,Affordable hostel with good WiFi.,Positive,4.7
+1117,141,Food quality is decent.,Neutral,4.4
+1118,141,Bathrooms need improvement.,Negative,4.8
+1119,142,Affordable hostel with good WiFi.,Positive,4.3
+1120,142,Bathrooms need improvement.,Negative,4.8
+1121,142,Food quality is decent.,Neutral,3.1
+1122,142,Bathrooms need improvement.,Negative,4.9
+1123,142,Very clean rooms and friendly owner.,Positive,3.4
+1124,142,Affordable hostel with good WiFi.,Positive,4.5
+1125,142,Food quality is decent.,Neutral,4.8
+1126,142,Peaceful environment for study.,Positive,4.9
+1127,142,Food quality is decent.,Neutral,3.9
+1128,143,Affordable hostel with good WiFi.,Positive,4.6
+1129,143,Very clean rooms and friendly owner.,Positive,3.3
+1130,143,Very clean rooms and friendly owner.,Positive,4.5
+1131,143,Bathrooms need improvement.,Negative,4.2
+1132,143,Bathrooms need improvement.,Negative,4.1
+1133,143,Affordable hostel with good WiFi.,Positive,4.2
+1134,143,Affordable hostel with good WiFi.,Positive,4.4
+1135,143,Food quality is decent.,Neutral,3.2
+1136,144,Affordable hostel with good WiFi.,Positive,4.0
+1137,144,Bathrooms need improvement.,Negative,3.9
+1138,144,Good value for money.,Positive,3.7
+1139,144,Peaceful environment for study.,Positive,4.0
+1140,144,Affordable hostel with good WiFi.,Positive,3.3
+1141,144,Affordable hostel with good WiFi.,Positive,3.1
+1142,144,Very clean rooms and friendly owner.,Positive,4.9
+1143,144,Peaceful environment for study.,Positive,3.4
+1144,144,Good value for money.,Positive,5.0
+1145,145,Very clean rooms and friendly owner.,Positive,3.4
+1146,145,Peaceful environment for study.,Positive,4.7
+1147,145,Peaceful environment for study.,Positive,4.4
+1148,145,Peaceful environment for study.,Positive,4.8
+1149,145,Peaceful environment for study.,Positive,3.8
+1150,145,Very clean rooms and friendly owner.,Positive,4.2
+1151,145,Peaceful environment for study.,Positive,4.4
+1152,146,Bathrooms need improvement.,Negative,4.9
+1153,146,Bathrooms need improvement.,Negative,4.2
+1154,146,Bathrooms need improvement.,Negative,4.3
+1155,146,Good value for money.,Positive,4.6
+1156,146,Bathrooms need improvement.,Negative,3.2
+1157,146,Peaceful environment for study.,Positive,4.7
+1158,146,Very clean rooms and friendly owner.,Positive,4.8
+1159,146,Affordable hostel with good WiFi.,Positive,4.0
+1160,146,Peaceful environment for study.,Positive,5.0
+1161,147,Bathrooms need improvement.,Negative,3.8
+1162,147,Good value for money.,Positive,4.9
+1163,147,Affordable hostel with good WiFi.,Positive,3.6
+1164,147,Peaceful environment for study.,Positive,4.8
+1165,147,Food quality is decent.,Neutral,3.9
+1166,147,Peaceful environment for study.,Positive,3.6
+1167,148,Good value for money.,Positive,4.0
+1168,148,Affordable hostel with good WiFi.,Positive,3.9
+1169,148,Good value for money.,Positive,3.9
+1170,148,Good value for money.,Positive,4.0
+1171,148,Affordable hostel with good WiFi.,Positive,4.6
+1172,148,Good value for money.,Positive,4.1
+1173,149,Peaceful environment for study.,Positive,3.6
+1174,149,Very clean rooms and friendly owner.,Positive,3.4
+1175,149,Bathrooms need improvement.,Negative,4.8
+1176,149,Affordable hostel with good WiFi.,Positive,4.8
+1177,149,Very clean rooms and friendly owner.,Positive,3.5
+1178,149,Good value for money.,Positive,4.3
+1179,149,Good value for money.,Positive,4.6
+1180,149,Good value for money.,Positive,4.5
+1181,149,Very clean rooms and friendly owner.,Positive,3.2
+1182,150,Good value for money.,Positive,3.7
+1183,150,Bathrooms need improvement.,Negative,4.4
+1184,150,Good value for money.,Positive,4.6
+1185,150,Bathrooms need improvement.,Negative,4.2
+1186,150,Affordable hostel with good WiFi.,Positive,3.8
+1187,150,Peaceful environment for study.,Positive,3.1
+1188,150,Affordable hostel with good WiFi.,Positive,4.8
+1189,150,Bathrooms need improvement.,Negative,4.7
+1190,150,Affordable hostel with good WiFi.,Positive,3.3
+1191,151,Affordable hostel with good WiFi.,Positive,4.5
+1192,151,Very clean rooms and friendly owner.,Positive,3.8
+1193,151,Food quality is decent.,Neutral,4.5
+1194,151,Peaceful environment for study.,Positive,3.6
+1195,151,Affordable hostel with good WiFi.,Positive,3.2
+1196,151,Affordable hostel with good WiFi.,Positive,4.9
+1197,151,Very clean rooms and friendly owner.,Positive,4.2
+1198,152,Very clean rooms and friendly owner.,Positive,3.9
+1199,152,Peaceful environment for study.,Positive,4.1
+1200,152,Very clean rooms and friendly owner.,Positive,4.2
+1201,152,Peaceful environment for study.,Positive,3.5
+1202,152,Bathrooms need improvement.,Negative,4.3
+1203,152,Peaceful environment for study.,Positive,3.8
+1204,152,Very clean rooms and friendly owner.,Positive,4.2
+1205,152,Very clean rooms and friendly owner.,Positive,3.5
+1206,153,Food quality is decent.,Neutral,4.2
+1207,153,Bathrooms need improvement.,Negative,4.6
+1208,153,Affordable hostel with good WiFi.,Positive,3.1
+1209,153,Affordable hostel with good WiFi.,Positive,3.1
+1210,153,Food quality is decent.,Neutral,3.1
+1211,153,Very clean rooms and friendly owner.,Positive,4.3
+1212,153,Bathrooms need improvement.,Negative,3.6
+1213,153,Very clean rooms and friendly owner.,Positive,3.1
+1214,153,Peaceful environment for study.,Positive,5.0
+1215,153,Affordable hostel with good WiFi.,Positive,4.3
+1216,154,Good value for money.,Positive,4.4
+1217,154,Bathrooms need improvement.,Negative,4.1
+1218,154,Bathrooms need improvement.,Negative,3.4
+1219,154,Peaceful environment for study.,Positive,4.5
+1220,154,Food quality is decent.,Neutral,4.9
+1221,154,Very clean rooms and friendly owner.,Positive,4.5
+1222,154,Food quality is decent.,Neutral,3.7
+1223,154,Peaceful environment for study.,Positive,4.6
+1224,154,Peaceful environment for study.,Positive,4.7
+1225,154,Very clean rooms and friendly owner.,Positive,3.6
+1226,155,Very clean rooms and friendly owner.,Positive,4.4
+1227,155,Food quality is decent.,Neutral,3.7
+1228,155,Peaceful environment for study.,Positive,4.0
+1229,155,Good value for money.,Positive,3.4
+1230,155,Very clean rooms and friendly owner.,Positive,3.2
+1231,155,Good value for money.,Positive,5.0
+1232,155,Bathrooms need improvement.,Negative,5.0
+1233,156,Good value for money.,Positive,4.4
+1234,156,Good value for money.,Positive,3.6
+1235,156,Bathrooms need improvement.,Negative,4.7
+1236,156,Food quality is decent.,Neutral,4.1
+1237,156,Bathrooms need improvement.,Negative,3.7
+1238,156,Affordable hostel with good WiFi.,Positive,4.2
+1239,156,Peaceful environment for study.,Positive,4.0
+1240,156,Good value for money.,Positive,4.0
+1241,156,Affordable hostel with good WiFi.,Positive,4.8
+1242,157,Good value for money.,Positive,3.6
+1243,157,Affordable hostel with good WiFi.,Positive,3.0
+1244,157,Very clean rooms and friendly owner.,Positive,3.9
+1245,157,Very clean rooms and friendly owner.,Positive,4.5
+1246,157,Affordable hostel with good WiFi.,Positive,4.6
+1247,157,Peaceful environment for study.,Positive,3.8
+1248,157,Food quality is decent.,Neutral,3.7
+1249,158,Very clean rooms and friendly owner.,Positive,4.3
+1250,158,Good value for money.,Positive,3.6
+1251,158,Very clean rooms and friendly owner.,Positive,3.6
+1252,158,Bathrooms need improvement.,Negative,4.1
+1253,158,Very clean rooms and friendly owner.,Positive,3.2
+1254,158,Food quality is decent.,Neutral,3.7
+1255,158,Good value for money.,Positive,4.1
+1256,159,Affordable hostel with good WiFi.,Positive,3.4
+1257,159,Food quality is decent.,Neutral,4.8
+1258,159,Peaceful environment for study.,Positive,4.8
+1259,159,Very clean rooms and friendly owner.,Positive,4.3
+1260,159,Peaceful environment for study.,Positive,3.3
+1261,159,Peaceful environment for study.,Positive,4.8
+1262,160,Food quality is decent.,Neutral,3.9
+1263,160,Peaceful environment for study.,Positive,4.9
+1264,160,Very clean rooms and friendly owner.,Positive,4.7
+1265,160,Food quality is decent.,Neutral,4.1
+1266,160,Good value for money.,Positive,3.6
+1267,160,Bathrooms need improvement.,Negative,3.0
+1268,160,Bathrooms need improvement.,Negative,4.4
+1269,160,Food quality is decent.,Neutral,3.1
+1270,160,Affordable hostel with good WiFi.,Positive,3.6
+1271,160,Very clean rooms and friendly owner.,Positive,3.7
+1272,161,Good value for money.,Positive,4.1
+1273,161,Affordable hostel with good WiFi.,Positive,4.1
+1274,161,Peaceful environment for study.,Positive,3.4
+1275,161,Very clean rooms and friendly owner.,Positive,4.7
+1276,161,Food quality is decent.,Neutral,4.4
+1277,161,Food quality is decent.,Neutral,4.4
+1278,161,Food quality is decent.,Neutral,3.8
+1279,161,Peaceful environment for study.,Positive,4.8
+1280,161,Food quality is decent.,Neutral,3.9
+1281,162,Affordable hostel with good WiFi.,Positive,4.1
+1282,162,Affordable hostel with good WiFi.,Positive,3.2
+1283,162,Very clean rooms and friendly owner.,Positive,4.6
+1284,162,Very clean rooms and friendly owner.,Positive,3.9
+1285,162,Very clean rooms and friendly owner.,Positive,4.6
+1286,162,Bathrooms need improvement.,Negative,3.3
+1287,162,Food quality is decent.,Neutral,4.8
+1288,162,Good value for money.,Positive,4.7
+1289,163,Food quality is decent.,Neutral,3.3
+1290,163,Very clean rooms and friendly owner.,Positive,4.6
+1291,163,Bathrooms need improvement.,Negative,4.4
+1292,163,Affordable hostel with good WiFi.,Positive,3.4
+1293,163,Very clean rooms and friendly owner.,Positive,3.9
+1294,163,Good value for money.,Positive,4.7
+1295,163,Very clean rooms and friendly owner.,Positive,3.0
+1296,163,Very clean rooms and friendly owner.,Positive,4.4
+1297,164,Very clean rooms and friendly owner.,Positive,3.7
+1298,164,Very clean rooms and friendly owner.,Positive,3.2
+1299,164,Good value for money.,Positive,4.5
+1300,164,Very clean rooms and friendly owner.,Positive,4.2
+1301,164,Food quality is decent.,Neutral,4.3
+1302,164,Affordable hostel with good WiFi.,Positive,3.6
+1303,164,Affordable hostel with good WiFi.,Positive,3.6
+1304,164,Bathrooms need improvement.,Negative,3.6
+1305,164,Peaceful environment for study.,Positive,4.3
+1306,164,Food quality is decent.,Neutral,3.3
+1307,165,Very clean rooms and friendly owner.,Positive,3.0
+1308,165,Bathrooms need improvement.,Negative,4.1
+1309,165,Very clean rooms and friendly owner.,Positive,3.4
+1310,165,Food quality is decent.,Neutral,4.1
+1311,165,Food quality is decent.,Neutral,3.3
+1312,165,Good value for money.,Positive,4.6
+1313,165,Bathrooms need improvement.,Negative,3.5
+1314,165,Very clean rooms and friendly owner.,Positive,3.6
+1315,166,Bathrooms need improvement.,Negative,3.9
+1316,166,Affordable hostel with good WiFi.,Positive,3.1
+1317,166,Good value for money.,Positive,3.1
+1318,166,Peaceful environment for study.,Positive,3.1
+1319,166,Peaceful environment for study.,Positive,3.8
+1320,166,Good value for money.,Positive,4.2
+1321,166,Bathrooms need improvement.,Negative,4.3
+1322,166,Good value for money.,Positive,4.4
+1323,167,Food quality is decent.,Neutral,3.6
+1324,167,Affordable hostel with good WiFi.,Positive,4.4
+1325,167,Good value for money.,Positive,4.6
+1326,167,Very clean rooms and friendly owner.,Positive,4.9
+1327,167,Peaceful environment for study.,Positive,4.1
+1328,167,Very clean rooms and friendly owner.,Positive,4.6
+1329,167,Good value for money.,Positive,3.9
+1330,167,Peaceful environment for study.,Positive,3.6
+1331,167,Good value for money.,Positive,4.4
+1332,167,Peaceful environment for study.,Positive,3.9
+1333,168,Affordable hostel with good WiFi.,Positive,4.7
+1334,168,Bathrooms need improvement.,Negative,3.5
+1335,168,Food quality is decent.,Neutral,3.8
+1336,168,Good value for money.,Positive,4.8
+1337,168,Food quality is decent.,Neutral,4.6
+1338,168,Food quality is decent.,Neutral,3.9
+1339,168,Very clean rooms and friendly owner.,Positive,3.1
+1340,169,Food quality is decent.,Neutral,4.0
+1341,169,Affordable hostel with good WiFi.,Positive,3.6
+1342,169,Food quality is decent.,Neutral,4.2
+1343,169,Affordable hostel with good WiFi.,Positive,4.0
+1344,169,Peaceful environment for study.,Positive,4.6
+1345,169,Very clean rooms and friendly owner.,Positive,3.7
+1346,170,Food quality is decent.,Neutral,4.1
+1347,170,Peaceful environment for study.,Positive,4.2
+1348,170,Affordable hostel with good WiFi.,Positive,4.2
+1349,170,Bathrooms need improvement.,Negative,3.3
+1350,170,Peaceful environment for study.,Positive,3.8
+1351,170,Food quality is decent.,Neutral,3.4
+1352,171,Peaceful environment for study.,Positive,4.6
+1353,171,Peaceful environment for study.,Positive,4.1
+1354,171,Food quality is decent.,Neutral,4.1
+1355,171,Affordable hostel with good WiFi.,Positive,3.3
+1356,171,Good value for money.,Positive,3.2
+1357,171,Good value for money.,Positive,4.1
+1358,171,Peaceful environment for study.,Positive,3.2
+1359,171,Bathrooms need improvement.,Negative,3.9
+1360,171,Bathrooms need improvement.,Negative,3.2
+1361,171,Peaceful environment for study.,Positive,3.4
+1362,172,Very clean rooms and friendly owner.,Positive,4.2
+1363,172,Good value for money.,Positive,4.6
+1364,172,Peaceful environment for study.,Positive,3.7
+1365,172,Good value for money.,Positive,4.3
+1366,172,Very clean rooms and friendly owner.,Positive,3.4
+1367,172,Affordable hostel with good WiFi.,Positive,4.8
+1368,172,Good value for money.,Positive,4.6
+1369,172,Affordable hostel with good WiFi.,Positive,4.3
+1370,172,Peaceful environment for study.,Positive,4.1
+1371,173,Bathrooms need improvement.,Negative,4.2
+1372,173,Affordable hostel with good WiFi.,Positive,3.4
+1373,173,Food quality is decent.,Neutral,3.6
+1374,173,Good value for money.,Positive,3.6
+1375,173,Peaceful environment for study.,Positive,4.4
+1376,173,Food quality is decent.,Neutral,5.0
+1377,173,Bathrooms need improvement.,Negative,3.0
+1378,173,Bathrooms need improvement.,Negative,3.8
+1379,173,Affordable hostel with good WiFi.,Positive,4.7
+1380,174,Food quality is decent.,Neutral,4.8
+1381,174,Very clean rooms and friendly owner.,Positive,3.0
+1382,174,Bathrooms need improvement.,Negative,4.6
+1383,174,Food quality is decent.,Neutral,3.2
+1384,174,Food quality is decent.,Neutral,4.7
+1385,174,Affordable hostel with good WiFi.,Positive,3.9
+1386,175,Peaceful environment for study.,Positive,4.3
+1387,175,Good value for money.,Positive,3.8
+1388,175,Peaceful environment for study.,Positive,3.9
+1389,175,Affordable hostel with good WiFi.,Positive,4.3
+1390,175,Peaceful environment for study.,Positive,3.3
+1391,175,Bathrooms need improvement.,Negative,3.8
+1392,175,Food quality is decent.,Neutral,4.7
+1393,175,Affordable hostel with good WiFi.,Positive,3.6
+1394,175,Good value for money.,Positive,3.3
+1395,175,Very clean rooms and friendly owner.,Positive,3.1
+1396,176,Affordable hostel with good WiFi.,Positive,4.4
+1397,176,Peaceful environment for study.,Positive,4.3
+1398,176,Affordable hostel with good WiFi.,Positive,3.2
+1399,176,Good value for money.,Positive,4.6
+1400,176,Peaceful environment for study.,Positive,4.8
+1401,176,Good value for money.,Positive,4.2
+1402,177,Bathrooms need improvement.,Negative,3.4
+1403,177,Bathrooms need improvement.,Negative,3.8
+1404,177,Peaceful environment for study.,Positive,3.8
+1405,177,Affordable hostel with good WiFi.,Positive,3.4
+1406,177,Bathrooms need improvement.,Negative,3.0
+1407,177,Peaceful environment for study.,Positive,4.7
+1408,177,Affordable hostel with good WiFi.,Positive,4.4
+1409,177,Food quality is decent.,Neutral,3.8
+1410,177,Bathrooms need improvement.,Negative,4.2
+1411,178,Very clean rooms and friendly owner.,Positive,4.1
+1412,178,Good value for money.,Positive,3.7
+1413,178,Bathrooms need improvement.,Negative,4.0
+1414,178,Good value for money.,Positive,3.2
+1415,178,Good value for money.,Positive,4.5
+1416,178,Food quality is decent.,Neutral,3.9
+1417,179,Bathrooms need improvement.,Negative,4.8
+1418,179,Very clean rooms and friendly owner.,Positive,3.5
+1419,179,Good value for money.,Positive,4.5
+1420,179,Good value for money.,Positive,3.2
+1421,179,Good value for money.,Positive,4.1
+1422,179,Bathrooms need improvement.,Negative,3.6
+1423,180,Food quality is decent.,Neutral,4.1
+1424,180,Very clean rooms and friendly owner.,Positive,3.9
+1425,180,Bathrooms need improvement.,Negative,4.8
+1426,180,Bathrooms need improvement.,Negative,4.5
+1427,180,Peaceful environment for study.,Positive,3.7
+1428,180,Food quality is decent.,Neutral,3.6
+1429,181,Good value for money.,Positive,4.8
+1430,181,Good value for money.,Positive,3.6
+1431,181,Bathrooms need improvement.,Negative,3.5
+1432,181,Good value for money.,Positive,3.9
+1433,181,Affordable hostel with good WiFi.,Positive,4.1
+1434,181,Good value for money.,Positive,5.0
+1435,182,Very clean rooms and friendly owner.,Positive,3.6
+1436,182,Very clean rooms and friendly owner.,Positive,3.3
+1437,182,Very clean rooms and friendly owner.,Positive,4.7
+1438,182,Food quality is decent.,Neutral,3.5
+1439,182,Bathrooms need improvement.,Negative,3.6
+1440,182,Food quality is decent.,Neutral,3.0
+1441,182,Very clean rooms and friendly owner.,Positive,4.2
+1442,182,Bathrooms need improvement.,Negative,4.5
+1443,182,Good value for money.,Positive,3.9
+1444,182,Affordable hostel with good WiFi.,Positive,3.5
+1445,183,Peaceful environment for study.,Positive,3.4
+1446,183,Bathrooms need improvement.,Negative,4.7
+1447,183,Food quality is decent.,Neutral,5.0
+1448,183,Affordable hostel with good WiFi.,Positive,4.2
+1449,183,Affordable hostel with good WiFi.,Positive,4.7
+1450,183,Peaceful environment for study.,Positive,4.5
+1451,183,Affordable hostel with good WiFi.,Positive,4.3
+1452,184,Affordable hostel with good WiFi.,Positive,4.2
+1453,184,Food quality is decent.,Neutral,3.1
+1454,184,Food quality is decent.,Neutral,4.5
+1455,184,Very clean rooms and friendly owner.,Positive,3.1
+1456,184,Peaceful environment for study.,Positive,3.8
+1457,184,Food quality is decent.,Neutral,4.0
+1458,184,Bathrooms need improvement.,Negative,3.5
+1459,185,Peaceful environment for study.,Positive,3.5
+1460,185,Bathrooms need improvement.,Negative,4.7
+1461,185,Very clean rooms and friendly owner.,Positive,3.6
+1462,185,Peaceful environment for study.,Positive,3.8
+1463,185,Food quality is decent.,Neutral,4.9
+1464,185,Good value for money.,Positive,4.9
+1465,185,Very clean rooms and friendly owner.,Positive,4.8
+1466,185,Good value for money.,Positive,3.7
+1467,185,Peaceful environment for study.,Positive,4.2
+1468,186,Food quality is decent.,Neutral,3.5
+1469,186,Very clean rooms and friendly owner.,Positive,3.5
+1470,186,Bathrooms need improvement.,Negative,3.8
+1471,186,Good value for money.,Positive,4.5
+1472,186,Good value for money.,Positive,4.3
+1473,186,Affordable hostel with good WiFi.,Positive,4.0
+1474,186,Good value for money.,Positive,4.4
+1475,186,Affordable hostel with good WiFi.,Positive,3.6
+1476,187,Good value for money.,Positive,3.0
+1477,187,Very clean rooms and friendly owner.,Positive,3.0
+1478,187,Very clean rooms and friendly owner.,Positive,4.1
+1479,187,Good value for money.,Positive,3.9
+1480,187,Affordable hostel with good WiFi.,Positive,4.5
+1481,187,Food quality is decent.,Neutral,3.4
+1482,188,Bathrooms need improvement.,Negative,3.2
+1483,188,Bathrooms need improvement.,Negative,4.3
+1484,188,Affordable hostel with good WiFi.,Positive,4.9
+1485,188,Good value for money.,Positive,3.2
+1486,188,Very clean rooms and friendly owner.,Positive,3.2
+1487,188,Bathrooms need improvement.,Negative,3.3
+1488,189,Affordable hostel with good WiFi.,Positive,4.8
+1489,189,Good value for money.,Positive,3.4
+1490,189,Food quality is decent.,Neutral,3.9
+1491,189,Very clean rooms and friendly owner.,Positive,4.3
+1492,189,Food quality is decent.,Neutral,4.5
+1493,189,Good value for money.,Positive,4.8
+1494,189,Food quality is decent.,Neutral,3.5
+1495,189,Very clean rooms and friendly owner.,Positive,3.6
+1496,189,Very clean rooms and friendly owner.,Positive,3.8
+1497,189,Food quality is decent.,Neutral,5.0
+1498,190,Food quality is decent.,Neutral,3.4
+1499,190,Very clean rooms and friendly owner.,Positive,4.0
+1500,190,Affordable hostel with good WiFi.,Positive,4.2
+1501,190,Affordable hostel with good WiFi.,Positive,4.3
+1502,190,Very clean rooms and friendly owner.,Positive,3.3
+1503,190,Peaceful environment for study.,Positive,3.4
+1504,190,Good value for money.,Positive,3.2
+1505,190,Peaceful environment for study.,Positive,4.4
+1506,191,Very clean rooms and friendly owner.,Positive,3.1
+1507,191,Bathrooms need improvement.,Negative,4.5
+1508,191,Peaceful environment for study.,Positive,3.0
+1509,191,Peaceful environment for study.,Positive,3.3
+1510,191,Good value for money.,Positive,3.0
+1511,191,Very clean rooms and friendly owner.,Positive,4.3
+1512,192,Affordable hostel with good WiFi.,Positive,4.4
+1513,192,Peaceful environment for study.,Positive,4.1
+1514,192,Bathrooms need improvement.,Negative,4.4
+1515,192,Peaceful environment for study.,Positive,4.0
+1516,192,Peaceful environment for study.,Positive,4.7
+1517,192,Very clean rooms and friendly owner.,Positive,4.1
+1518,192,Very clean rooms and friendly owner.,Positive,3.8
+1519,192,Good value for money.,Positive,4.6
+1520,193,Very clean rooms and friendly owner.,Positive,4.1
+1521,193,Food quality is decent.,Neutral,3.7
+1522,193,Food quality is decent.,Neutral,3.8
+1523,193,Good value for money.,Positive,5.0
+1524,193,Good value for money.,Positive,3.2
+1525,193,Bathrooms need improvement.,Negative,4.7
+1526,193,Food quality is decent.,Neutral,3.2
+1527,193,Peaceful environment for study.,Positive,4.5
+1528,193,Food quality is decent.,Neutral,4.3
+1529,194,Bathrooms need improvement.,Negative,3.1
+1530,194,Peaceful environment for study.,Positive,4.3
+1531,194,Food quality is decent.,Neutral,4.4
+1532,194,Very clean rooms and friendly owner.,Positive,4.3
+1533,194,Food quality is decent.,Neutral,4.0
+1534,194,Good value for money.,Positive,3.9
+1535,194,Affordable hostel with good WiFi.,Positive,3.3
+1536,195,Very clean rooms and friendly owner.,Positive,4.4
+1537,195,Bathrooms need improvement.,Negative,3.5
+1538,195,Peaceful environment for study.,Positive,3.1
+1539,195,Bathrooms need improvement.,Negative,4.3
+1540,195,Peaceful environment for study.,Positive,4.1
+1541,195,Peaceful environment for study.,Positive,4.9
+1542,195,Very clean rooms and friendly owner.,Positive,3.1
+1543,196,Food quality is decent.,Neutral,4.6
+1544,196,Very clean rooms and friendly owner.,Positive,3.8
+1545,196,Affordable hostel with good WiFi.,Positive,4.6
+1546,196,Good value for money.,Positive,4.0
+1547,196,Good value for money.,Positive,4.7
+1548,196,Bathrooms need improvement.,Negative,3.3
+1549,197,Affordable hostel with good WiFi.,Positive,4.8
+1550,197,Very clean rooms and friendly owner.,Positive,4.5
+1551,197,Peaceful environment for study.,Positive,4.3
+1552,197,Peaceful environment for study.,Positive,4.8
+1553,197,Bathrooms need improvement.,Negative,3.1
+1554,197,Good value for money.,Positive,4.3
+1555,197,Very clean rooms and friendly owner.,Positive,3.3
+1556,197,Very clean rooms and friendly owner.,Positive,4.8
+1557,197,Very clean rooms and friendly owner.,Positive,3.9
+1558,197,Affordable hostel with good WiFi.,Positive,4.7
+1559,198,Very clean rooms and friendly owner.,Positive,3.2
+1560,198,Bathrooms need improvement.,Negative,4.6
+1561,198,Affordable hostel with good WiFi.,Positive,3.1
+1562,198,Affordable hostel with good WiFi.,Positive,3.9
+1563,198,Good value for money.,Positive,4.4
+1564,198,Food quality is decent.,Neutral,3.2
+1565,199,Bathrooms need improvement.,Negative,3.3
+1566,199,Affordable hostel with good WiFi.,Positive,4.5
+1567,199,Bathrooms need improvement.,Negative,3.3
+1568,199,Very clean rooms and friendly owner.,Positive,3.2
+1569,199,Affordable hostel with good WiFi.,Positive,4.5
+1570,199,Affordable hostel with good WiFi.,Positive,4.4
+1571,199,Bathrooms need improvement.,Negative,3.3
+1572,199,Affordable hostel with good WiFi.,Positive,4.9
+1573,199,Very clean rooms and friendly owner.,Positive,3.3
+1574,199,Good value for money.,Positive,4.2
+1575,200,Very clean rooms and friendly owner.,Positive,4.8
+1576,200,Very clean rooms and friendly owner.,Positive,3.0
+1577,200,Affordable hostel with good WiFi.,Positive,4.9
+1578,200,Good value for money.,Positive,4.3
+1579,200,Food quality is decent.,Neutral,3.8
+1580,200,Peaceful environment for study.,Positive,4.4
+1581,200,Affordable hostel with good WiFi.,Positive,3.3
+1582,201,Bathrooms need improvement.,Negative,3.9
+1583,201,Affordable hostel with good WiFi.,Positive,4.9
+1584,201,Bathrooms need improvement.,Negative,4.4
+1585,201,Bathrooms need improvement.,Negative,3.4
+1586,201,Peaceful environment for study.,Positive,4.2
+1587,201,Very clean rooms and friendly owner.,Positive,4.3
+1588,201,Food quality is decent.,Neutral,3.7
+1589,201,Very clean rooms and friendly owner.,Positive,4.1
+1590,202,Very clean rooms and friendly owner.,Positive,5.0
+1591,202,Very clean rooms and friendly owner.,Positive,4.2
+1592,202,Bathrooms need improvement.,Negative,4.0
+1593,202,Peaceful environment for study.,Positive,4.5
+1594,202,Good value for money.,Positive,3.4
+1595,202,Very clean rooms and friendly owner.,Positive,3.4
+1596,202,Affordable hostel with good WiFi.,Positive,4.4
+1597,203,Peaceful environment for study.,Positive,3.4
+1598,203,Good value for money.,Positive,4.8
+1599,203,Very clean rooms and friendly owner.,Positive,4.3
+1600,203,Food quality is decent.,Neutral,3.4
+1601,203,Food quality is decent.,Neutral,3.7
+1602,203,Peaceful environment for study.,Positive,3.1
+1603,203,Good value for money.,Positive,3.1
+1604,203,Bathrooms need improvement.,Negative,3.4
+1605,203,Very clean rooms and friendly owner.,Positive,4.0
+1606,204,Very clean rooms and friendly owner.,Positive,4.8
+1607,204,Good value for money.,Positive,3.9
+1608,204,Bathrooms need improvement.,Negative,3.7
+1609,204,Affordable hostel with good WiFi.,Positive,4.5
+1610,204,Food quality is decent.,Neutral,3.5
+1611,204,Very clean rooms and friendly owner.,Positive,3.7
+1612,205,Affordable hostel with good WiFi.,Positive,4.5
+1613,205,Affordable hostel with good WiFi.,Positive,3.8
+1614,205,Affordable hostel with good WiFi.,Positive,3.1
+1615,205,Bathrooms need improvement.,Negative,4.0
+1616,205,Peaceful environment for study.,Positive,3.3
+1617,205,Bathrooms need improvement.,Negative,3.9
+1618,206,Food quality is decent.,Neutral,3.3
+1619,206,Good value for money.,Positive,3.4
+1620,206,Food quality is decent.,Neutral,5.0
+1621,206,Affordable hostel with good WiFi.,Positive,3.7
+1622,206,Very clean rooms and friendly owner.,Positive,4.4
+1623,206,Very clean rooms and friendly owner.,Positive,3.6
+1624,206,Very clean rooms and friendly owner.,Positive,4.7
+1625,206,Peaceful environment for study.,Positive,3.8
+1626,206,Food quality is decent.,Neutral,3.4
+1627,207,Bathrooms need improvement.,Negative,3.3
+1628,207,Good value for money.,Positive,4.9
+1629,207,Affordable hostel with good WiFi.,Positive,4.2
+1630,207,Bathrooms need improvement.,Negative,4.7
+1631,207,Very clean rooms and friendly owner.,Positive,3.8
+1632,207,Bathrooms need improvement.,Negative,4.0
+1633,207,Affordable hostel with good WiFi.,Positive,4.2
+1634,207,Peaceful environment for study.,Positive,3.6
+1635,208,Good value for money.,Positive,4.7
+1636,208,Affordable hostel with good WiFi.,Positive,3.7
+1637,208,Bathrooms need improvement.,Negative,3.4
+1638,208,Bathrooms need improvement.,Negative,4.9
+1639,208,Bathrooms need improvement.,Negative,4.8
+1640,208,Peaceful environment for study.,Positive,5.0
+1641,208,Very clean rooms and friendly owner.,Positive,5.0
+1642,208,Good value for money.,Positive,4.5
+1643,208,Very clean rooms and friendly owner.,Positive,3.9
+1644,209,Peaceful environment for study.,Positive,4.6
+1645,209,Good value for money.,Positive,4.6
+1646,209,Peaceful environment for study.,Positive,4.0
+1647,209,Very clean rooms and friendly owner.,Positive,4.1
+1648,209,Very clean rooms and friendly owner.,Positive,4.4
+1649,209,Peaceful environment for study.,Positive,4.9
+1650,209,Affordable hostel with good WiFi.,Positive,3.7
+1651,209,Affordable hostel with good WiFi.,Positive,4.3
+1652,209,Very clean rooms and friendly owner.,Positive,3.0
+1653,210,Affordable hostel with good WiFi.,Positive,4.4
+1654,210,Bathrooms need improvement.,Negative,4.5
+1655,210,Very clean rooms and friendly owner.,Positive,5.0
+1656,210,Peaceful environment for study.,Positive,4.5
+1657,210,Good value for money.,Positive,3.8
+1658,210,Food quality is decent.,Neutral,4.3
+1659,210,Good value for money.,Positive,4.3
+1660,210,Good value for money.,Positive,3.1
+1661,211,Bathrooms need improvement.,Negative,3.1
+1662,211,Peaceful environment for study.,Positive,4.5
+1663,211,Good value for money.,Positive,4.9
+1664,211,Bathrooms need improvement.,Negative,4.2
+1665,211,Affordable hostel with good WiFi.,Positive,4.6
+1666,211,Very clean rooms and friendly owner.,Positive,4.2
+1667,211,Food quality is decent.,Neutral,4.5
+1668,211,Very clean rooms and friendly owner.,Positive,4.0
+1669,212,Very clean rooms and friendly owner.,Positive,3.2
+1670,212,Food quality is decent.,Neutral,3.9
+1671,212,Very clean rooms and friendly owner.,Positive,3.7
+1672,212,Affordable hostel with good WiFi.,Positive,4.3
+1673,212,Good value for money.,Positive,3.1
+1674,212,Good value for money.,Positive,4.5
+1675,212,Affordable hostel with good WiFi.,Positive,5.0
+1676,212,Affordable hostel with good WiFi.,Positive,4.1
+1677,213,Good value for money.,Positive,4.9
+1678,213,Bathrooms need improvement.,Negative,4.7
+1679,213,Good value for money.,Positive,3.4
+1680,213,Good value for money.,Positive,4.5
+1681,213,Food quality is decent.,Neutral,3.7
+1682,213,Food quality is decent.,Neutral,4.0
+1683,213,Peaceful environment for study.,Positive,3.6
+1684,213,Very clean rooms and friendly owner.,Positive,3.7
+1685,213,Peaceful environment for study.,Positive,4.0
+1686,214,Very clean rooms and friendly owner.,Positive,3.9
+1687,214,Bathrooms need improvement.,Negative,4.4
+1688,214,Bathrooms need improvement.,Negative,4.8
+1689,214,Peaceful environment for study.,Positive,4.2
+1690,214,Good value for money.,Positive,4.9
+1691,214,Very clean rooms and friendly owner.,Positive,3.4
+1692,214,Peaceful environment for study.,Positive,3.2
+1693,214,Peaceful environment for study.,Positive,4.8
+1694,214,Food quality is decent.,Neutral,4.9
+1695,214,Very clean rooms and friendly owner.,Positive,3.2
+1696,215,Very clean rooms and friendly owner.,Positive,4.4
+1697,215,Peaceful environment for study.,Positive,3.3
+1698,215,Affordable hostel with good WiFi.,Positive,4.0
+1699,215,Good value for money.,Positive,3.0
+1700,215,Peaceful environment for study.,Positive,4.9
+1701,215,Bathrooms need improvement.,Negative,4.9
+1702,215,Peaceful environment for study.,Positive,3.7
+1703,215,Peaceful environment for study.,Positive,4.5
+1704,216,Food quality is decent.,Neutral,3.4
+1705,216,Very clean rooms and friendly owner.,Positive,4.7
+1706,216,Affordable hostel with good WiFi.,Positive,4.7
+1707,216,Bathrooms need improvement.,Negative,4.3
+1708,216,Peaceful environment for study.,Positive,4.2
+1709,216,Good value for money.,Positive,4.3
+1710,217,Peaceful environment for study.,Positive,4.2
+1711,217,Good value for money.,Positive,4.1
+1712,217,Bathrooms need improvement.,Negative,3.9
+1713,217,Food quality is decent.,Neutral,4.1
+1714,217,Food quality is decent.,Neutral,3.3
+1715,217,Food quality is decent.,Neutral,3.5
+1716,217,Food quality is decent.,Neutral,4.9
+1717,217,Very clean rooms and friendly owner.,Positive,3.3
+1718,218,Peaceful environment for study.,Positive,4.9
+1719,218,Bathrooms need improvement.,Negative,4.8
+1720,218,Good value for money.,Positive,4.1
+1721,218,Affordable hostel with good WiFi.,Positive,4.9
+1722,218,Good value for money.,Positive,4.4
+1723,218,Good value for money.,Positive,4.6
+1724,218,Affordable hostel with good WiFi.,Positive,3.5
+1725,218,Very clean rooms and friendly owner.,Positive,5.0
+1726,219,Affordable hostel with good WiFi.,Positive,3.9
+1727,219,Food quality is decent.,Neutral,3.4
+1728,219,Bathrooms need improvement.,Negative,4.4
+1729,219,Good value for money.,Positive,3.6
+1730,219,Food quality is decent.,Neutral,3.3
+1731,219,Peaceful environment for study.,Positive,4.1
+1732,219,Affordable hostel with good WiFi.,Positive,4.1
+1733,219,Very clean rooms and friendly owner.,Positive,4.8
+1734,219,Peaceful environment for study.,Positive,4.9
+1735,219,Affordable hostel with good WiFi.,Positive,4.9
+1736,220,Affordable hostel with good WiFi.,Positive,3.0
+1737,220,Good value for money.,Positive,4.1
+1738,220,Bathrooms need improvement.,Negative,3.7
+1739,220,Good value for money.,Positive,3.6
+1740,220,Food quality is decent.,Neutral,4.9
+1741,220,Bathrooms need improvement.,Negative,4.3
+1742,220,Bathrooms need improvement.,Negative,4.5
+1743,220,Peaceful environment for study.,Positive,3.7
+1744,221,Good value for money.,Positive,4.0
+1745,221,Very clean rooms and friendly owner.,Positive,3.3
+1746,221,Bathrooms need improvement.,Negative,3.2
+1747,221,Very clean rooms and friendly owner.,Positive,3.8
+1748,221,Affordable hostel with good WiFi.,Positive,3.9
+1749,221,Very clean rooms and friendly owner.,Positive,3.7
+1750,222,Good value for money.,Positive,3.4
+1751,222,Bathrooms need improvement.,Negative,3.4
+1752,222,Food quality is decent.,Neutral,3.4
+1753,222,Very clean rooms and friendly owner.,Positive,4.1
+1754,222,Peaceful environment for study.,Positive,4.4
+1755,222,Very clean rooms and friendly owner.,Positive,5.0
+1756,222,Peaceful environment for study.,Positive,3.4
+1757,222,Food quality is decent.,Neutral,4.2
+1758,222,Bathrooms need improvement.,Negative,4.9
+1759,222,Good value for money.,Positive,3.7
+1760,223,Good value for money.,Positive,4.7
+1761,223,Food quality is decent.,Neutral,3.8
+1762,223,Very clean rooms and friendly owner.,Positive,3.6
+1763,223,Food quality is decent.,Neutral,3.6
+1764,223,Peaceful environment for study.,Positive,4.7
+1765,223,Very clean rooms and friendly owner.,Positive,3.4
+1766,223,Peaceful environment for study.,Positive,4.5
+1767,224,Peaceful environment for study.,Positive,3.6
+1768,224,Good value for money.,Positive,4.9
+1769,224,Peaceful environment for study.,Positive,4.5
+1770,224,Peaceful environment for study.,Positive,3.3
+1771,224,Bathrooms need improvement.,Negative,4.2
+1772,224,Affordable hostel with good WiFi.,Positive,3.4
+1773,224,Peaceful environment for study.,Positive,5.0
+1774,224,Bathrooms need improvement.,Negative,5.0
+1775,224,Very clean rooms and friendly owner.,Positive,4.9
+1776,225,Peaceful environment for study.,Positive,3.2
+1777,225,Peaceful environment for study.,Positive,4.3
+1778,225,Food quality is decent.,Neutral,3.8
+1779,225,Bathrooms need improvement.,Negative,3.9
+1780,225,Bathrooms need improvement.,Negative,4.5
+1781,225,Affordable hostel with good WiFi.,Positive,3.4
+1782,225,Peaceful environment for study.,Positive,3.6
+1783,225,Peaceful environment for study.,Positive,3.1
+1784,225,Food quality is decent.,Neutral,4.7
+1785,225,Food quality is decent.,Neutral,4.0
+1786,226,Affordable hostel with good WiFi.,Positive,3.1
+1787,226,Very clean rooms and friendly owner.,Positive,3.3
+1788,226,Food quality is decent.,Neutral,4.9
+1789,226,Good value for money.,Positive,3.9
+1790,226,Good value for money.,Positive,4.3
+1791,226,Food quality is decent.,Neutral,3.8
+1792,226,Peaceful environment for study.,Positive,4.8
+1793,226,Good value for money.,Positive,3.5
+1794,226,Very clean rooms and friendly owner.,Positive,4.5
+1795,227,Very clean rooms and friendly owner.,Positive,4.2
+1796,227,Food quality is decent.,Neutral,4.2
+1797,227,Bathrooms need improvement.,Negative,3.9
+1798,227,Food quality is decent.,Neutral,4.3
+1799,227,Peaceful environment for study.,Positive,4.9
+1800,227,Very clean rooms and friendly owner.,Positive,3.7
+1801,227,Good value for money.,Positive,4.2
+1802,227,Food quality is decent.,Neutral,3.3
+1803,227,Very clean rooms and friendly owner.,Positive,3.3
+1804,228,Good value for money.,Positive,3.3
+1805,228,Affordable hostel with good WiFi.,Positive,3.1
+1806,228,Food quality is decent.,Neutral,3.8
+1807,228,Food quality is decent.,Neutral,3.1
+1808,228,Food quality is decent.,Neutral,4.1
+1809,228,Very clean rooms and friendly owner.,Positive,4.0
+1810,228,Good value for money.,Positive,3.4
+1811,228,Very clean rooms and friendly owner.,Positive,4.2
+1812,228,Affordable hostel with good WiFi.,Positive,4.1
+1813,229,Good value for money.,Positive,4.6
+1814,229,Food quality is decent.,Neutral,4.4
+1815,229,Good value for money.,Positive,3.7
+1816,229,Bathrooms need improvement.,Negative,4.2
+1817,229,Affordable hostel with good WiFi.,Positive,3.0
+1818,229,Bathrooms need improvement.,Negative,3.6
+1819,229,Peaceful environment for study.,Positive,3.8
+1820,229,Affordable hostel with good WiFi.,Positive,3.2
+1821,230,Bathrooms need improvement.,Negative,3.4
+1822,230,Affordable hostel with good WiFi.,Positive,4.6
+1823,230,Bathrooms need improvement.,Negative,4.2
+1824,230,Bathrooms need improvement.,Negative,4.7
+1825,230,Good value for money.,Positive,4.1
+1826,230,Very clean rooms and friendly owner.,Positive,3.8
+1827,230,Very clean rooms and friendly owner.,Positive,3.2
+1828,231,Very clean rooms and friendly owner.,Positive,4.0
+1829,231,Food quality is decent.,Neutral,4.4
+1830,231,Affordable hostel with good WiFi.,Positive,4.6
+1831,231,Bathrooms need improvement.,Negative,4.0
+1832,231,Food quality is decent.,Neutral,3.3
+1833,231,Food quality is decent.,Neutral,3.1
+1834,231,Very clean rooms and friendly owner.,Positive,3.4
+1835,232,Good value for money.,Positive,3.5
+1836,232,Affordable hostel with good WiFi.,Positive,3.4
+1837,232,Very clean rooms and friendly owner.,Positive,3.8
+1838,232,Very clean rooms and friendly owner.,Positive,3.2
+1839,232,Peaceful environment for study.,Positive,4.5
+1840,232,Very clean rooms and friendly owner.,Positive,3.4
+1841,232,Very clean rooms and friendly owner.,Positive,4.6
+1842,233,Bathrooms need improvement.,Negative,3.1
+1843,233,Very clean rooms and friendly owner.,Positive,4.8
+1844,233,Very clean rooms and friendly owner.,Positive,3.1
+1845,233,Good value for money.,Positive,3.0
+1846,233,Very clean rooms and friendly owner.,Positive,4.6
+1847,233,Bathrooms need improvement.,Negative,3.4
+1848,233,Affordable hostel with good WiFi.,Positive,3.4
+1849,233,Food quality is decent.,Neutral,3.1
+1850,233,Affordable hostel with good WiFi.,Positive,4.7
+1851,233,Food quality is decent.,Neutral,4.9
+1852,234,Food quality is decent.,Neutral,3.3
+1853,234,Bathrooms need improvement.,Negative,4.6
+1854,234,Bathrooms need improvement.,Negative,3.5
+1855,234,Bathrooms need improvement.,Negative,3.1
+1856,234,Bathrooms need improvement.,Negative,4.5
+1857,234,Bathrooms need improvement.,Negative,3.4
+1858,234,Affordable hostel with good WiFi.,Positive,4.9
+1859,234,Affordable hostel with good WiFi.,Positive,4.8
+1860,235,Very clean rooms and friendly owner.,Positive,4.9
+1861,235,Very clean rooms and friendly owner.,Positive,4.8
+1862,235,Bathrooms need improvement.,Negative,4.7
+1863,235,Peaceful environment for study.,Positive,3.7
+1864,235,Bathrooms need improvement.,Negative,3.4
+1865,235,Good value for money.,Positive,4.9
+1866,235,Affordable hostel with good WiFi.,Positive,4.7
+1867,235,Peaceful environment for study.,Positive,3.8
+1868,235,Bathrooms need improvement.,Negative,3.5
+1869,235,Very clean rooms and friendly owner.,Positive,4.5
+1870,236,Very clean rooms and friendly owner.,Positive,3.9
+1871,236,Bathrooms need improvement.,Negative,3.3
+1872,236,Food quality is decent.,Neutral,4.4
+1873,236,Bathrooms need improvement.,Negative,4.4
+1874,236,Very clean rooms and friendly owner.,Positive,3.7
+1875,236,Very clean rooms and friendly owner.,Positive,3.8
+1876,236,Peaceful environment for study.,Positive,4.2
+1877,236,Food quality is decent.,Neutral,4.4
+1878,237,Affordable hostel with good WiFi.,Positive,4.1
+1879,237,Food quality is decent.,Neutral,5.0
+1880,237,Peaceful environment for study.,Positive,3.4
+1881,237,Very clean rooms and friendly owner.,Positive,4.8
+1882,237,Peaceful environment for study.,Positive,4.9
+1883,237,Food quality is decent.,Neutral,3.4
+1884,237,Good value for money.,Positive,4.0
+1885,237,Very clean rooms and friendly owner.,Positive,3.8
+1886,237,Bathrooms need improvement.,Negative,4.3
+1887,238,Very clean rooms and friendly owner.,Positive,3.3
+1888,238,Peaceful environment for study.,Positive,4.4
+1889,238,Very clean rooms and friendly owner.,Positive,4.5
+1890,238,Affordable hostel with good WiFi.,Positive,3.1
+1891,238,Affordable hostel with good WiFi.,Positive,3.7
+1892,238,Bathrooms need improvement.,Negative,4.7
+1893,239,Very clean rooms and friendly owner.,Positive,3.5
+1894,239,Peaceful environment for study.,Positive,4.5
+1895,239,Food quality is decent.,Neutral,4.5
+1896,239,Bathrooms need improvement.,Negative,4.2
+1897,239,Good value for money.,Positive,4.9
+1898,239,Food quality is decent.,Neutral,4.0
+1899,239,Bathrooms need improvement.,Negative,4.9
+1900,239,Peaceful environment for study.,Positive,4.0
+1901,239,Affordable hostel with good WiFi.,Positive,4.5
+1902,240,Very clean rooms and friendly owner.,Positive,3.5
+1903,240,Peaceful environment for study.,Positive,3.5
+1904,240,Affordable hostel with good WiFi.,Positive,3.1
+1905,240,Good value for money.,Positive,3.1
+1906,240,Very clean rooms and friendly owner.,Positive,4.0
+1907,240,Very clean rooms and friendly owner.,Positive,4.9
+1908,241,Bathrooms need improvement.,Negative,4.4
+1909,241,Affordable hostel with good WiFi.,Positive,3.6
+1910,241,Bathrooms need improvement.,Negative,3.2
+1911,241,Very clean rooms and friendly owner.,Positive,4.3
+1912,241,Bathrooms need improvement.,Negative,4.5
+1913,241,Peaceful environment for study.,Positive,3.4
+1914,241,Good value for money.,Positive,4.0
+1915,241,Bathrooms need improvement.,Negative,3.5
+1916,241,Food quality is decent.,Neutral,4.6
+1917,242,Bathrooms need improvement.,Negative,3.0
+1918,242,Very clean rooms and friendly owner.,Positive,5.0
+1919,242,Very clean rooms and friendly owner.,Positive,3.8
+1920,242,Food quality is decent.,Neutral,4.7
+1921,242,Peaceful environment for study.,Positive,3.9
+1922,242,Very clean rooms and friendly owner.,Positive,3.4
+1923,242,Good value for money.,Positive,4.7
+1924,242,Food quality is decent.,Neutral,4.8
+1925,242,Affordable hostel with good WiFi.,Positive,4.0
+1926,242,Affordable hostel with good WiFi.,Positive,3.6
+1927,243,Peaceful environment for study.,Positive,4.5
+1928,243,Bathrooms need improvement.,Negative,4.4
+1929,243,Good value for money.,Positive,4.1
+1930,243,Bathrooms need improvement.,Negative,4.1
+1931,243,Peaceful environment for study.,Positive,4.1
+1932,243,Affordable hostel with good WiFi.,Positive,4.0
+1933,243,Peaceful environment for study.,Positive,3.5
+1934,243,Bathrooms need improvement.,Negative,4.9
+1935,243,Bathrooms need improvement.,Negative,4.4
+1936,244,Food quality is decent.,Neutral,3.1
+1937,244,Bathrooms need improvement.,Negative,3.1
+1938,244,Food quality is decent.,Neutral,3.7
+1939,244,Good value for money.,Positive,4.2
+1940,244,Good value for money.,Positive,3.7
+1941,244,Very clean rooms and friendly owner.,Positive,3.9
+1942,244,Food quality is decent.,Neutral,3.8
+1943,244,Very clean rooms and friendly owner.,Positive,4.3
+1944,245,Affordable hostel with good WiFi.,Positive,4.3
+1945,245,Bathrooms need improvement.,Negative,3.2
+1946,245,Good value for money.,Positive,3.1
+1947,245,Food quality is decent.,Neutral,3.2
+1948,245,Affordable hostel with good WiFi.,Positive,3.0
+1949,245,Food quality is decent.,Neutral,3.1
+1950,245,Good value for money.,Positive,4.7
+1951,246,Bathrooms need improvement.,Negative,4.8
+1952,246,Food quality is decent.,Neutral,3.0
+1953,246,Peaceful environment for study.,Positive,4.2
+1954,246,Food quality is decent.,Neutral,3.8
+1955,246,Peaceful environment for study.,Positive,3.6
+1956,246,Very clean rooms and friendly owner.,Positive,4.6
+1957,246,Very clean rooms and friendly owner.,Positive,4.4
+1958,246,Affordable hostel with good WiFi.,Positive,3.7
+1959,246,Bathrooms need improvement.,Negative,4.6
+1960,246,Good value for money.,Positive,3.7
+1961,247,Food quality is decent.,Neutral,3.7
+1962,247,Peaceful environment for study.,Positive,3.4
+1963,247,Good value for money.,Positive,4.7
+1964,247,Very clean rooms and friendly owner.,Positive,4.7
+1965,247,Bathrooms need improvement.,Negative,3.4
+1966,247,Food quality is decent.,Neutral,3.1
+1967,247,Bathrooms need improvement.,Negative,3.8
+1968,247,Affordable hostel with good WiFi.,Positive,4.2
+1969,247,Very clean rooms and friendly owner.,Positive,4.4
+1970,247,Bathrooms need improvement.,Negative,3.2
+1971,248,Food quality is decent.,Neutral,3.1
+1972,248,Bathrooms need improvement.,Negative,4.0
+1973,248,Affordable hostel with good WiFi.,Positive,3.7
+1974,248,Very clean rooms and friendly owner.,Positive,4.3
+1975,248,Food quality is decent.,Neutral,4.0
+1976,248,Food quality is decent.,Neutral,3.9
+1977,248,Bathrooms need improvement.,Negative,3.6
+1978,248,Peaceful environment for study.,Positive,3.8
+1979,249,Bathrooms need improvement.,Negative,3.9
+1980,249,Bathrooms need improvement.,Negative,3.4
+1981,249,Very clean rooms and friendly owner.,Positive,4.3
+1982,249,Bathrooms need improvement.,Negative,4.7
+1983,249,Bathrooms need improvement.,Negative,4.0
+1984,249,Good value for money.,Positive,4.9
+1985,249,Good value for money.,Positive,4.9
+1986,249,Food quality is decent.,Neutral,4.9
+1987,249,Bathrooms need improvement.,Negative,4.6
+1988,249,Peaceful environment for study.,Positive,4.9
+1989,250,Bathrooms need improvement.,Negative,3.4
+1990,250,Peaceful environment for study.,Positive,3.3
+1991,250,Affordable hostel with good WiFi.,Positive,4.5
+1992,250,Food quality is decent.,Neutral,4.7
+1993,250,Peaceful environment for study.,Positive,3.6
+1994,250,Very clean rooms and friendly owner.,Positive,4.3
+1995,251,Food quality is decent.,Neutral,4.6
+1996,251,Good value for money.,Positive,3.3
+1997,251,Good value for money.,Positive,4.2
+1998,251,Peaceful environment for study.,Positive,3.5
+1999,251,Affordable hostel with good WiFi.,Positive,3.4
+2000,251,Affordable hostel with good WiFi.,Positive,4.6
+2001,251,Food quality is decent.,Neutral,3.9
+2002,251,Bathrooms need improvement.,Negative,5.0
+2003,251,Peaceful environment for study.,Positive,4.3
+2004,252,Affordable hostel with good WiFi.,Positive,3.3
+2005,252,Affordable hostel with good WiFi.,Positive,3.1
+2006,252,Food quality is decent.,Neutral,4.3
+2007,252,Affordable hostel with good WiFi.,Positive,4.3
+2008,252,Very clean rooms and friendly owner.,Positive,4.9
+2009,252,Peaceful environment for study.,Positive,4.6
+2010,253,Very clean rooms and friendly owner.,Positive,3.6
+2011,253,Food quality is decent.,Neutral,4.7
+2012,253,Peaceful environment for study.,Positive,4.8
+2013,253,Good value for money.,Positive,4.3
+2014,253,Very clean rooms and friendly owner.,Positive,3.8
+2015,253,Good value for money.,Positive,4.7
+2016,254,Very clean rooms and friendly owner.,Positive,4.1
+2017,254,Bathrooms need improvement.,Negative,4.9
+2018,254,Bathrooms need improvement.,Negative,4.3
+2019,254,Bathrooms need improvement.,Negative,4.9
+2020,254,Bathrooms need improvement.,Negative,3.5
+2021,254,Very clean rooms and friendly owner.,Positive,3.5
+2022,254,Very clean rooms and friendly owner.,Positive,4.5
+2023,255,Food quality is decent.,Neutral,4.7
+2024,255,Good value for money.,Positive,3.8
+2025,255,Good value for money.,Positive,4.5
+2026,255,Peaceful environment for study.,Positive,3.4
+2027,255,Very clean rooms and friendly owner.,Positive,3.4
+2028,255,Food quality is decent.,Neutral,3.9
+2029,255,Food quality is decent.,Neutral,4.7
+2030,255,Very clean rooms and friendly owner.,Positive,4.0
+2031,256,Good value for money.,Positive,4.9
+2032,256,Food quality is decent.,Neutral,4.1
+2033,256,Peaceful environment for study.,Positive,4.4
+2034,256,Food quality is decent.,Neutral,4.8
+2035,256,Affordable hostel with good WiFi.,Positive,3.7
+2036,256,Good value for money.,Positive,3.7
+2037,256,Food quality is decent.,Neutral,3.0
+2038,256,Bathrooms need improvement.,Negative,3.1
+2039,257,Good value for money.,Positive,4.8
+2040,257,Good value for money.,Positive,3.5
+2041,257,Bathrooms need improvement.,Negative,3.8
+2042,257,Good value for money.,Positive,4.9
+2043,257,Food quality is decent.,Neutral,4.8
+2044,257,Good value for money.,Positive,3.2
+2045,258,Peaceful environment for study.,Positive,3.8
+2046,258,Peaceful environment for study.,Positive,4.9
+2047,258,Food quality is decent.,Neutral,3.6
+2048,258,Affordable hostel with good WiFi.,Positive,3.6
+2049,258,Affordable hostel with good WiFi.,Positive,4.8
+2050,258,Good value for money.,Positive,3.6
+2051,258,Good value for money.,Positive,3.8
+2052,259,Food quality is decent.,Neutral,4.7
+2053,259,Peaceful environment for study.,Positive,3.9
+2054,259,Peaceful environment for study.,Positive,4.9
+2055,259,Food quality is decent.,Neutral,4.4
+2056,259,Very clean rooms and friendly owner.,Positive,4.6
+2057,259,Good value for money.,Positive,3.5
+2058,260,Food quality is decent.,Neutral,3.8
+2059,260,Good value for money.,Positive,4.6
+2060,260,Good value for money.,Positive,3.7
+2061,260,Good value for money.,Positive,3.1
+2062,260,Very clean rooms and friendly owner.,Positive,4.3
+2063,260,Affordable hostel with good WiFi.,Positive,4.3
+2064,261,Very clean rooms and friendly owner.,Positive,3.8
+2065,261,Good value for money.,Positive,3.6
+2066,261,Bathrooms need improvement.,Negative,3.2
+2067,261,Affordable hostel with good WiFi.,Positive,3.5
+2068,261,Good value for money.,Positive,4.9
+2069,261,Good value for money.,Positive,4.5
+2070,261,Bathrooms need improvement.,Negative,4.4
+2071,262,Peaceful environment for study.,Positive,4.0
+2072,262,Good value for money.,Positive,3.3
+2073,262,Affordable hostel with good WiFi.,Positive,4.4
+2074,262,Food quality is decent.,Neutral,4.6
+2075,262,Affordable hostel with good WiFi.,Positive,3.2
+2076,262,Food quality is decent.,Neutral,3.4
+2077,262,Peaceful environment for study.,Positive,4.9
+2078,262,Bathrooms need improvement.,Negative,3.4
+2079,263,Bathrooms need improvement.,Negative,4.3
+2080,263,Good value for money.,Positive,3.5
+2081,263,Very clean rooms and friendly owner.,Positive,4.9
+2082,263,Affordable hostel with good WiFi.,Positive,3.5
+2083,263,Affordable hostel with good WiFi.,Positive,3.1
+2084,263,Bathrooms need improvement.,Negative,3.9
+2085,264,Affordable hostel with good WiFi.,Positive,3.2
+2086,264,Food quality is decent.,Neutral,3.3
+2087,264,Bathrooms need improvement.,Negative,3.2
+2088,264,Good value for money.,Positive,4.1
+2089,264,Peaceful environment for study.,Positive,4.7
+2090,264,Peaceful environment for study.,Positive,3.2
+2091,264,Good value for money.,Positive,3.4
+2092,264,Food quality is decent.,Neutral,3.6
+2093,265,Peaceful environment for study.,Positive,3.3
+2094,265,Affordable hostel with good WiFi.,Positive,4.2
+2095,265,Food quality is decent.,Neutral,4.5
+2096,265,Affordable hostel with good WiFi.,Positive,3.8
+2097,265,Peaceful environment for study.,Positive,4.6
+2098,265,Very clean rooms and friendly owner.,Positive,3.6
+2099,265,Food quality is decent.,Neutral,3.5
+2100,265,Peaceful environment for study.,Positive,4.8
+2101,265,Food quality is decent.,Neutral,4.2
+2102,266,Very clean rooms and friendly owner.,Positive,3.0
+2103,266,Affordable hostel with good WiFi.,Positive,4.7
+2104,266,Good value for money.,Positive,3.8
+2105,266,Affordable hostel with good WiFi.,Positive,4.4
+2106,266,Good value for money.,Positive,3.8
+2107,266,Bathrooms need improvement.,Negative,3.5
+2108,266,Very clean rooms and friendly owner.,Positive,4.1
+2109,266,Very clean rooms and friendly owner.,Positive,3.7
+2110,266,Affordable hostel with good WiFi.,Positive,3.9
+2111,267,Bathrooms need improvement.,Negative,4.9
+2112,267,Bathrooms need improvement.,Negative,4.4
+2113,267,Very clean rooms and friendly owner.,Positive,3.0
+2114,267,Bathrooms need improvement.,Negative,4.2
+2115,267,Food quality is decent.,Neutral,5.0
+2116,267,Good value for money.,Positive,3.7
+2117,267,Bathrooms need improvement.,Negative,3.1
+2118,267,Affordable hostel with good WiFi.,Positive,3.5
+2119,268,Peaceful environment for study.,Positive,4.9
+2120,268,Peaceful environment for study.,Positive,3.3
+2121,268,Food quality is decent.,Neutral,4.4
+2122,268,Peaceful environment for study.,Positive,3.3
+2123,268,Very clean rooms and friendly owner.,Positive,3.6
+2124,268,Affordable hostel with good WiFi.,Positive,4.0
+2125,268,Food quality is decent.,Neutral,4.5
+2126,268,Peaceful environment for study.,Positive,3.6
+2127,268,Food quality is decent.,Neutral,4.2
+2128,268,Food quality is decent.,Neutral,4.0
+2129,269,Affordable hostel with good WiFi.,Positive,3.6
+2130,269,Peaceful environment for study.,Positive,4.5
+2131,269,Affordable hostel with good WiFi.,Positive,4.1
+2132,269,Good value for money.,Positive,4.3
+2133,269,Peaceful environment for study.,Positive,3.1
+2134,269,Affordable hostel with good WiFi.,Positive,3.1
+2135,269,Affordable hostel with good WiFi.,Positive,3.1
+2136,269,Food quality is decent.,Neutral,3.3
+2137,269,Peaceful environment for study.,Positive,3.9
+2138,270,Very clean rooms and friendly owner.,Positive,3.9
+2139,270,Good value for money.,Positive,4.1
+2140,270,Peaceful environment for study.,Positive,4.0
+2141,270,Good value for money.,Positive,4.7
+2142,270,Very clean rooms and friendly owner.,Positive,3.7
+2143,270,Affordable hostel with good WiFi.,Positive,4.7
+2144,270,Affordable hostel with good WiFi.,Positive,4.7
+2145,270,Good value for money.,Positive,4.0
+2146,270,Food quality is decent.,Neutral,4.1
+2147,271,Affordable hostel with good WiFi.,Positive,4.2
+2148,271,Very clean rooms and friendly owner.,Positive,4.1
+2149,271,Bathrooms need improvement.,Negative,3.4
+2150,271,Very clean rooms and friendly owner.,Positive,3.5
+2151,271,Peaceful environment for study.,Positive,4.4
+2152,271,Food quality is decent.,Neutral,3.1
+2153,271,Good value for money.,Positive,5.0
+2154,271,Very clean rooms and friendly owner.,Positive,3.8
+2155,271,Bathrooms need improvement.,Negative,4.9
+2156,271,Very clean rooms and friendly owner.,Positive,4.7
+2157,272,Very clean rooms and friendly owner.,Positive,3.2
+2158,272,Good value for money.,Positive,4.3
+2159,272,Peaceful environment for study.,Positive,4.3
+2160,272,Food quality is decent.,Neutral,4.2
+2161,272,Very clean rooms and friendly owner.,Positive,3.7
+2162,272,Very clean rooms and friendly owner.,Positive,4.3
+2163,272,Peaceful environment for study.,Positive,3.6
+2164,273,Affordable hostel with good WiFi.,Positive,3.4
+2165,273,Very clean rooms and friendly owner.,Positive,4.6
+2166,273,Food quality is decent.,Neutral,3.6
+2167,273,Very clean rooms and friendly owner.,Positive,4.5
+2168,273,Bathrooms need improvement.,Negative,4.9
+2169,273,Peaceful environment for study.,Positive,3.2
+2170,273,Food quality is decent.,Neutral,3.4
+2171,273,Peaceful environment for study.,Positive,3.2
+2172,273,Affordable hostel with good WiFi.,Positive,3.3
+2173,273,Peaceful environment for study.,Positive,3.6
+2174,274,Very clean rooms and friendly owner.,Positive,3.6
+2175,274,Peaceful environment for study.,Positive,4.5
+2176,274,Food quality is decent.,Neutral,4.8
+2177,274,Bathrooms need improvement.,Negative,3.3
+2178,274,Good value for money.,Positive,3.2
+2179,274,Food quality is decent.,Neutral,4.0
+2180,274,Peaceful environment for study.,Positive,3.9
+2181,275,Peaceful environment for study.,Positive,3.5
+2182,275,Bathrooms need improvement.,Negative,3.8
+2183,275,Peaceful environment for study.,Positive,4.6
+2184,275,Bathrooms need improvement.,Negative,3.4
+2185,275,Good value for money.,Positive,3.9
+2186,275,Very clean rooms and friendly owner.,Positive,4.0
+2187,275,Peaceful environment for study.,Positive,4.4
+2188,275,Good value for money.,Positive,4.4
+2189,275,Affordable hostel with good WiFi.,Positive,4.9
+2190,276,Good value for money.,Positive,4.3
+2191,276,Very clean rooms and friendly owner.,Positive,3.6
+2192,276,Peaceful environment for study.,Positive,3.2
+2193,276,Peaceful environment for study.,Positive,3.6
+2194,276,Affordable hostel with good WiFi.,Positive,4.4
+2195,276,Food quality is decent.,Neutral,4.7
+2196,276,Bathrooms need improvement.,Negative,3.9
+2197,276,Bathrooms need improvement.,Negative,3.1
+2198,276,Very clean rooms and friendly owner.,Positive,4.8
+2199,276,Bathrooms need improvement.,Negative,3.2
+2200,277,Peaceful environment for study.,Positive,3.2
+2201,277,Good value for money.,Positive,4.4
+2202,277,Food quality is decent.,Neutral,3.7
+2203,277,Bathrooms need improvement.,Negative,3.2
+2204,277,Bathrooms need improvement.,Negative,3.0
+2205,277,Good value for money.,Positive,4.3
+2206,277,Affordable hostel with good WiFi.,Positive,4.6
+2207,277,Peaceful environment for study.,Positive,3.1
+2208,277,Peaceful environment for study.,Positive,4.8
+2209,278,Food quality is decent.,Neutral,4.2
+2210,278,Peaceful environment for study.,Positive,4.5
+2211,278,Peaceful environment for study.,Positive,4.2
+2212,278,Food quality is decent.,Neutral,3.7
+2213,278,Affordable hostel with good WiFi.,Positive,3.4
+2214,278,Very clean rooms and friendly owner.,Positive,4.5
+2215,278,Bathrooms need improvement.,Negative,3.5
+2216,278,Good value for money.,Positive,3.2
+2217,279,Very clean rooms and friendly owner.,Positive,3.0
+2218,279,Very clean rooms and friendly owner.,Positive,3.0
+2219,279,Good value for money.,Positive,4.0
+2220,279,Good value for money.,Positive,3.8
+2221,279,Good value for money.,Positive,4.9
+2222,279,Bathrooms need improvement.,Negative,4.5
+2223,279,Food quality is decent.,Neutral,4.2
+2224,279,Bathrooms need improvement.,Negative,3.7
+2225,279,Good value for money.,Positive,4.9
+2226,279,Good value for money.,Positive,3.8
+2227,280,Very clean rooms and friendly owner.,Positive,3.3
+2228,280,Very clean rooms and friendly owner.,Positive,3.4
+2229,280,Very clean rooms and friendly owner.,Positive,4.4
+2230,280,Affordable hostel with good WiFi.,Positive,4.7
+2231,280,Affordable hostel with good WiFi.,Positive,4.0
+2232,280,Affordable hostel with good WiFi.,Positive,4.3
+2233,280,Peaceful environment for study.,Positive,4.7
+2234,280,Bathrooms need improvement.,Negative,3.4
+2235,281,Peaceful environment for study.,Positive,3.3
+2236,281,Peaceful environment for study.,Positive,3.0
+2237,281,Affordable hostel with good WiFi.,Positive,4.8
+2238,281,Good value for money.,Positive,4.4
+2239,281,Peaceful environment for study.,Positive,3.9
+2240,281,Peaceful environment for study.,Positive,4.2
+2241,281,Affordable hostel with good WiFi.,Positive,3.6
+2242,281,Peaceful environment for study.,Positive,3.1
+2243,282,Very clean rooms and friendly owner.,Positive,4.3
+2244,282,Good value for money.,Positive,3.9
+2245,282,Peaceful environment for study.,Positive,4.7
+2246,282,Good value for money.,Positive,4.2
+2247,282,Good value for money.,Positive,4.1
+2248,282,Food quality is decent.,Neutral,3.1
+2249,283,Peaceful environment for study.,Positive,4.0
+2250,283,Good value for money.,Positive,4.2
+2251,283,Good value for money.,Positive,4.8
+2252,283,Peaceful environment for study.,Positive,3.5
+2253,283,Very clean rooms and friendly owner.,Positive,4.1
+2254,283,Peaceful environment for study.,Positive,4.2
+2255,283,Bathrooms need improvement.,Negative,3.1
+2256,283,Good value for money.,Positive,3.8
+2257,283,Peaceful environment for study.,Positive,3.2
+2258,284,Good value for money.,Positive,3.7
+2259,284,Good value for money.,Positive,3.9
+2260,284,Affordable hostel with good WiFi.,Positive,3.6
+2261,284,Affordable hostel with good WiFi.,Positive,3.9
+2262,284,Peaceful environment for study.,Positive,3.5
+2263,284,Affordable hostel with good WiFi.,Positive,4.2
+2264,284,Good value for money.,Positive,3.7
+2265,284,Bathrooms need improvement.,Negative,4.7
+2266,284,Good value for money.,Positive,4.3
+2267,284,Affordable hostel with good WiFi.,Positive,4.8
+2268,285,Peaceful environment for study.,Positive,4.7
+2269,285,Good value for money.,Positive,4.3
+2270,285,Food quality is decent.,Neutral,4.6
+2271,285,Affordable hostel with good WiFi.,Positive,4.2
+2272,285,Food quality is decent.,Neutral,4.4
+2273,285,Very clean rooms and friendly owner.,Positive,4.3
+2274,285,Affordable hostel with good WiFi.,Positive,3.3
+2275,285,Affordable hostel with good WiFi.,Positive,4.2
+2276,285,Very clean rooms and friendly owner.,Positive,4.6
+2277,286,Food quality is decent.,Neutral,3.5
+2278,286,Bathrooms need improvement.,Negative,3.1
+2279,286,Very clean rooms and friendly owner.,Positive,3.7
+2280,286,Food quality is decent.,Neutral,3.7
+2281,286,Affordable hostel with good WiFi.,Positive,3.3
+2282,286,Bathrooms need improvement.,Negative,3.1
+2283,286,Very clean rooms and friendly owner.,Positive,3.7
+2284,286,Very clean rooms and friendly owner.,Positive,4.2
+2285,286,Very clean rooms and friendly owner.,Positive,4.1
+2286,287,Food quality is decent.,Neutral,5.0
+2287,287,Food quality is decent.,Neutral,4.5
+2288,287,Bathrooms need improvement.,Negative,3.5
+2289,287,Affordable hostel with good WiFi.,Positive,4.7
+2290,287,Bathrooms need improvement.,Negative,4.2
+2291,287,Very clean rooms and friendly owner.,Positive,4.4
+2292,287,Peaceful environment for study.,Positive,4.6
+2293,287,Very clean rooms and friendly owner.,Positive,4.9
+2294,287,Bathrooms need improvement.,Negative,4.2
+2295,288,Bathrooms need improvement.,Negative,3.1
+2296,288,Very clean rooms and friendly owner.,Positive,3.3
+2297,288,Very clean rooms and friendly owner.,Positive,4.7
+2298,288,Food quality is decent.,Neutral,3.3
+2299,288,Food quality is decent.,Neutral,4.4
+2300,288,Bathrooms need improvement.,Negative,4.0
+2301,289,Affordable hostel with good WiFi.,Positive,4.3
+2302,289,Food quality is decent.,Neutral,4.6
+2303,289,Very clean rooms and friendly owner.,Positive,4.7
+2304,289,Peaceful environment for study.,Positive,4.9
+2305,289,Very clean rooms and friendly owner.,Positive,3.5
+2306,289,Peaceful environment for study.,Positive,3.7
+2307,290,Affordable hostel with good WiFi.,Positive,3.2
+2308,290,Food quality is decent.,Neutral,4.4
+2309,290,Peaceful environment for study.,Positive,3.7
+2310,290,Good value for money.,Positive,3.5
+2311,290,Bathrooms need improvement.,Negative,3.8
+2312,290,Affordable hostel with good WiFi.,Positive,3.3
+2313,290,Peaceful environment for study.,Positive,3.8
+2314,290,Peaceful environment for study.,Positive,4.8
+2315,290,Bathrooms need improvement.,Negative,4.6
+2316,290,Food quality is decent.,Neutral,4.9
+2317,291,Affordable hostel with good WiFi.,Positive,4.5
+2318,291,Good value for money.,Positive,4.6
+2319,291,Very clean rooms and friendly owner.,Positive,3.2
+2320,291,Food quality is decent.,Neutral,3.8
+2321,291,Affordable hostel with good WiFi.,Positive,3.9
+2322,291,Peaceful environment for study.,Positive,4.5
+2323,291,Good value for money.,Positive,4.8
+2324,291,Affordable hostel with good WiFi.,Positive,4.8
+2325,291,Very clean rooms and friendly owner.,Positive,5.0
+2326,292,Food quality is decent.,Neutral,3.8
+2327,292,Good value for money.,Positive,4.4
+2328,292,Food quality is decent.,Neutral,4.4
+2329,292,Food quality is decent.,Neutral,4.8
+2330,292,Very clean rooms and friendly owner.,Positive,4.7
+2331,292,Bathrooms need improvement.,Negative,4.2
+2332,292,Affordable hostel with good WiFi.,Positive,4.4
+2333,292,Peaceful environment for study.,Positive,4.3
+2334,292,Bathrooms need improvement.,Negative,4.2
+2335,292,Bathrooms need improvement.,Negative,4.3
+2336,293,Good value for money.,Positive,3.8
+2337,293,Affordable hostel with good WiFi.,Positive,4.8
+2338,293,Very clean rooms and friendly owner.,Positive,3.1
+2339,293,Food quality is decent.,Neutral,3.8
+2340,293,Good value for money.,Positive,4.5
+2341,293,Affordable hostel with good WiFi.,Positive,4.0
+2342,293,Bathrooms need improvement.,Negative,3.6
+2343,293,Very clean rooms and friendly owner.,Positive,4.0
+2344,294,Bathrooms need improvement.,Negative,3.7
+2345,294,Good value for money.,Positive,3.3
+2346,294,Very clean rooms and friendly owner.,Positive,4.8
+2347,294,Bathrooms need improvement.,Negative,4.2
+2348,294,Affordable hostel with good WiFi.,Positive,4.7
+2349,294,Food quality is decent.,Neutral,4.5
+2350,294,Bathrooms need improvement.,Negative,3.2
+2351,294,Very clean rooms and friendly owner.,Positive,4.7
+2352,295,Good value for money.,Positive,4.0
+2353,295,Very clean rooms and friendly owner.,Positive,3.1
+2354,295,Good value for money.,Positive,4.9
+2355,295,Peaceful environment for study.,Positive,3.6
+2356,295,Good value for money.,Positive,3.0
+2357,295,Food quality is decent.,Neutral,5.0
+2358,295,Good value for money.,Positive,5.0
+2359,295,Bathrooms need improvement.,Negative,4.4
+2360,296,Bathrooms need improvement.,Negative,3.5
+2361,296,Food quality is decent.,Neutral,3.6
+2362,296,Good value for money.,Positive,4.1
+2363,296,Affordable hostel with good WiFi.,Positive,4.4
+2364,296,Bathrooms need improvement.,Negative,4.5
+2365,296,Very clean rooms and friendly owner.,Positive,3.7
+2366,296,Bathrooms need improvement.,Negative,3.4
+2367,296,Food quality is decent.,Neutral,3.9
+2368,296,Affordable hostel with good WiFi.,Positive,4.4
+2369,296,Peaceful environment for study.,Positive,3.2
+2370,297,Peaceful environment for study.,Positive,4.8
+2371,297,Peaceful environment for study.,Positive,3.4
+2372,297,Very clean rooms and friendly owner.,Positive,3.7
+2373,297,Bathrooms need improvement.,Negative,3.8
+2374,297,Bathrooms need improvement.,Negative,4.0
+2375,297,Peaceful environment for study.,Positive,4.7
+2376,298,Peaceful environment for study.,Positive,4.3
+2377,298,Peaceful environment for study.,Positive,4.4
+2378,298,Peaceful environment for study.,Positive,4.5
+2379,298,Peaceful environment for study.,Positive,4.6
+2380,298,Affordable hostel with good WiFi.,Positive,4.0
+2381,298,Peaceful environment for study.,Positive,4.4
+2382,298,Affordable hostel with good WiFi.,Positive,4.9
+2383,298,Bathrooms need improvement.,Negative,4.7
+2384,298,Very clean rooms and friendly owner.,Positive,4.4
+2385,298,Peaceful environment for study.,Positive,3.9
+2386,299,Bathrooms need improvement.,Negative,3.7
+2387,299,Very clean rooms and friendly owner.,Positive,4.2
+2388,299,Peaceful environment for study.,Positive,3.2
+2389,299,Food quality is decent.,Neutral,4.1
+2390,299,Very clean rooms and friendly owner.,Positive,4.0
+2391,299,Very clean rooms and friendly owner.,Positive,3.7
+2392,299,Food quality is decent.,Neutral,3.6
+2393,300,Very clean rooms and friendly owner.,Positive,4.6
+2394,300,Affordable hostel with good WiFi.,Positive,4.6
+2395,300,Peaceful environment for study.,Positive,3.1
+2396,300,Food quality is decent.,Neutral,4.8
+2397,300,Affordable hostel with good WiFi.,Positive,3.4
+2398,300,Good value for money.,Positive,4.0
+2399,300,Very clean rooms and friendly owner.,Positive,4.1
+2400,300,Very clean rooms and friendly owner.,Positive,4.7
+2401,300,Peaceful environment for study.,Positive,4.0

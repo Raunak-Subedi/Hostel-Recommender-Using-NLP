@@ -1,0 +1,30 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Cors==5.0.0
+python-dotenv==1.0.1
+
+SQLAlchemy==2.0.35
+PyMySQL==1.1.1
+
+# Original requirements.txt pinned pandas==2.2.3 / numpy==1.26.4 / scikit-learn==1.5.2,
+# which predate Python 3.14 and have no prebuilt wheel for it (pip tries to compile
+# from source and fails without MSVC Build Tools). Unpinned here so pip picks the
+# newest release, which does ship a 3.14 wheel.
+pandas>=2.3
+numpy>=2.1
+scikit-learn>=1.6
+
+# torch didn't have Python 3.14 wheels until the 2.9.0 release; unpinned so pip
+# grabs a current version. On Windows, PyPI's default torch wheel is CPU-only,
+# which is exactly what this project needs (no GPU required).
+sentence-transformers==3.0.1
+transformers==4.45.2
+torch>=2.9
+
+rapidfuzz==3.10.1
+
+langdetect==1.0.9
+
+indic-transliteration==2.3.59
+
+vaderSentiment==3.3.2
