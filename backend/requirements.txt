@@ -22,3 +22,5 @@ langdetect==1.0.9
 indic-transliteration==2.3.59
 
 vaderSentiment==3.3.2
+
+gunicorn
